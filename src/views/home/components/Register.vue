@@ -1,0 +1,78 @@
+<template>
+    <div style="padding:120px 0px; background-color:#FEF3EC;">
+        <p style="font-size:3.4em; width:90%; margin:auto; color:#042C5B; font-weight: 700;">
+            Get Started With Road Runner
+        </p>
+        <v-row style="width:90%; margin:auto; padding: 20px 0;">
+            <v-col cols="4">
+                <div class="packages-box d-flex justify-center align-center">
+                    <img width="50%" height="auto" src="../../../assets/img/Customer.png" />
+                </div>
+                <div class="pakages-text mt-4">
+                    <h2>Register as a Customer</h2>
+                    <p>I want to order rides to deliver my packages.</p>
+                    <span class="link-text">Get Started</span>
+                </div>
+            </v-col>
+            <v-col cols="4">
+                <div class="packages-box d-flex justify-center align-center">
+                    <img width="50%" height="auto" src="../../../assets/img/Rider.png" />
+                </div>
+                <div class="pakages-text mt-4">
+                    <h2>Register as a Rider</h2>
+                    <p>I want to get requests to deliver packages.</p>
+                    <span class="link-text">Get Started</span>
+                </div>
+
+            </v-col>
+            <v-col cols="4">
+                <div class="packages-box d-flex justify-center align-center">
+                    <img width="50%" height="auto" src="../../../assets/img/Business.png" />
+                </div>
+                <div class="pakages-text mt-4">
+                    <h2>Register as a Business</h2>
+                    <p>I am an individual/company with a fleet of riders
+                    </p>
+                    <span class="link-text" text>Get Started</span>
+                </div>
+            </v-col>
+        </v-row>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'register',
+}
+</script>
+
+<style scoped>
+.packages-box {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFCFA;
+    border-radius: 12px;
+}
+
+.packages-text h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #141414;
+}
+
+.packages-text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #525252;
+}
+
+.link-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #F4842B;
+}
+</style>
