@@ -8,7 +8,7 @@
             </v-col>
             <v-spacer></v-spacer>
             <v-col md="4" xs="12">
-                <div class="d-flex flex-row justify-end justify-sm-start mt-5">
+                <div class="d-flex flex-row justify-xl-end justify-sm-start mt-5">
                     <div class="download-btn">
                     </div>
                     <div class="download-btn">

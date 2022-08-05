@@ -4,7 +4,7 @@
         <div class="d-flex flex-row pb-8" style="border-bottom:2px solid #F3F5F7">
             <img style="width: 98px; height:98px; padding-top: 10px;" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
-            <div class="d-flex flex-wrap">
+            <div class="d-flex flex-wrap flex-xs-column flex-row justify-sm-end">
                 <v-btn class="navbar-buttons" x-large text>
                     How it works
                 </v-btn>
@@ -29,12 +29,13 @@
             <p style="font-weight: 400; color:#042C5B; margin-top: 15px;" class="mr-3">
                 Copyright © 2022, Road Runner
             </p>
-            <v-btn class="navbar-buttons" style="font-weight: 500;" x-large text>
+            <p class="navbar-buttons" style="font-weight: 500; margin-top: 15px; margin-right:20px; cursor:pointer"
+                x-large text>
                 Privacy Policy
-            </v-btn>
-            <v-btn class="navbar-buttons" style="font-weight: 500;" x-large text>
+            </p>
+            <p class="navbar-buttons" style="font-weight: 500;  margin-top: 15px; cursor:pointer" x-large text>
                 Terms & Conditions
-            </v-btn>
+            </p>
             <v-spacer></v-spacer>
             <div class="d-flex flex-row">
                 <v-btn width="45px" height="45px" elevation="0"
@@ -76,5 +77,18 @@ export default {
     font-size: 18px;
     text-transform: capitalize;
     color: #042C5B
+}
+@media only screen and (max-width: 600px) {
+    .navbar-body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .navbar-image {
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+        margin-top: 0;
+    }
 }
 </style>

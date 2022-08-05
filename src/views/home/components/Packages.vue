@@ -79,4 +79,11 @@ export default {
     line-height: 26px;
     color: #525252;
 }
+@media only screen and (max-width: 600px) {
+    .package-header {
+        padding-top: 100px;
+        width: 80%;
+        font-size: 3em;
+    }
+}
 </style>

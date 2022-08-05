@@ -68,9 +68,9 @@ export default {
 .estimate-delivery-body {
     width: 99%;
     margin: auto;
-    padding: 0px 0;
+    padding: 0px 0px 80px 0px;
         display: flex;
-        direction: column-reverse;
+        flex-direction: column-reverse;
         ;
     }
     
@@ -78,7 +78,7 @@ export default {
         color: #042C5B;
         font-size: 3em;
         font-weight: 700;
-        padding: 20px 12px;
+        padding: 00px 12px;
     }
     
     }

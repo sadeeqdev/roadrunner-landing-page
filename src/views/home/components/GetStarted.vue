@@ -45,7 +45,7 @@ export default {
     padding: 0px 0;
     text-align: center;
         display: flex;
-        direction: column-reverse;
+        flex-direction: column-reverse;
 }
 
 .earn-monthly {
