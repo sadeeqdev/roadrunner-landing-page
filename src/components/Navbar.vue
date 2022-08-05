@@ -1,8 +1,8 @@
 <template>
     <v-app-bar style="background-color:transparent" :class="{ 'setScrollColor': scrolled, 'white': scrolled }"
-        elevate-on-scroll fixed height="100px">
-        <div style="width:92%; margin:auto;" class="d-flex flex-row">
-            <img style=" width: 98px; height:98px; padding-top: 10px;" src="../assets/img/Roadrunner-Logo.svg">
+        elevate-on-scroll fixed class="nav-appbar">
+        <div class="navbar-body d-flex flex-row">
+            <img class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
             <div class="navbar-buttons mt-4 d-none d-md-flex">
                 <v-btn x-large text>
@@ -57,6 +57,22 @@ export default {
 </script>
 
 <style scoped>
+.nav-appbar {
+    height: 100px;
+}
+
+.navbar-image {
+    width: 98px;
+    height: 98px;
+    padding-top: 10px;
+
+}
+
+.navbar-body {
+    width: 92%;
+    margin: auto;
+}
+
 .navbar-buttons {
     font-weight: 500;
     font-size: 18px;
@@ -64,5 +80,20 @@ export default {
 
 .setScrollColor {
     background-color: white;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .navbar-image {
+        width: 60px;
+        height: 60px;
+        padding-top: 0px;
+
+    }
 }
 </style>

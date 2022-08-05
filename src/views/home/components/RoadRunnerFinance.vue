@@ -2,7 +2,7 @@
     <div style="background-color: #fff;">
         <v-row style="width:95%; margin:auto; padding: 80px 0;">
             <v-col cols="12" class="d-flex flex-column justify-center">
-                <p style="color:#042C5B; text-align:center; font-size:4em; font-weight: 700; margin-top: 70px;">
+                <p class="finance-header" style="">
                     With <span class="link-text">Roadrunner Finance</span> You Can Drive Your Dream Car, Bike, Or Van
                     With One Of Our
                     Partners.
@@ -24,12 +24,25 @@ export default {
 </script>
 
 <style scoped>
-.download-btn:hover {
-    background-color: #042C5B;
+.finance-header {
+    color: #042C5B;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 70px;
 }
 
 .link-text {
     text-decoration-line: underline;
     color: #F4842B;
+}
+@media only screen and (max-width: 600px) {
+    .finance-header {
+        color: #042C5B;
+        text-align: left;
+        font-size: 3em;
+        font-weight: 700;
+        margin-top: 70px;
+    }
 }
 </style>

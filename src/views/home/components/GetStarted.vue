@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <v-row class="get-started-body">
+        <v-row class="get-started-body d-flex d-column-reverse">
             <v-col cols="12" md="6" sx="12">
                 <p class="earn-monthly">
                     Earn Over<br /> ₦50,000 Monthly<br /> As A Rider.
@@ -9,7 +9,6 @@
                     width="250px" height="60px">Get Started
                 </v-btn>
             </v-col>
-            <v-spacer></v-spacer>
             <v-col cols="12" md="6" xs="12">
                 <div class="get-started-bg">
                     <img width="100%" height="auto" src="../../../assets/img/get-started-bg.png" />
@@ -44,6 +43,9 @@ export default {
     width: 95%;
     margin: auto;
     padding: 0px 0;
+    text-align: center;
+        display: flex;
+        direction: column-reverse;
 }
 
 .earn-monthly {

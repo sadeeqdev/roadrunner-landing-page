@@ -1,6 +1,6 @@
 <template>
-    <div style="padding:120px 0px; background-color:#FEF3EC;">
-        <p style="font-size:3.4em; width:90%; margin:auto; color:#042C5B; font-weight: 700;">
+    <div class="register-body">
+        <p class="register-header">
             Get Started With Road Runner
         </p>
         <v-row style="width:90%; margin:20px auto; padding: 20px 0;" class="d-flex flex-row justify-space-between">
@@ -47,6 +47,18 @@ export default {
 </script>
 
 <style scoped>
+.register-body {
+    padding: 120px 0px;
+    background-color: #FEF3EC;
+}
+
+.register-header {
+    font-size: 3.4em;
+    width: 90%;
+    margin: auto;
+    color: #042C5B;
+    font-weight: 700;
+}
 .register-packages-box {
     width: 50px;
     height: 50px;
@@ -74,5 +86,19 @@ export default {
     line-height: 26px;
     text-decoration-line: underline;
     color: #F4842B;
+}
+@media only screen and (max-width: 600px) {
+    .register-header {
+        font-size: 2.4em;
+        width: 90%;
+    }
+
+    .register-body {
+        padding: 50px 0px;
+    }
+
+    .register-packages-box {
+        margin-top: 40px
+    }
 }
 </style>

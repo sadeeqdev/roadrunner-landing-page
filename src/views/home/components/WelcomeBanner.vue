@@ -46,7 +46,7 @@ export default {
     font-size: 2em;
     font-weight: 500;
 }
-.download-btn:first-child {
+.download-btn {
     background-color: black;
     width: 180px;
     height: 70px;
@@ -55,23 +55,15 @@ export default {
     border-radius: 12px;
     padding: 20px;
     cursor: pointer;
-    background-image: url('../../../assets/img/download-apple-logo.svg');
-    background-size: 120px 60px;
+    background-size: 120px 50px;
     background-position: center;
+}
+.download-btn:first-child {
+    background-image: url('../../../assets/img/download-apple-logo.svg');
 }
 
 .download-btn:last-child {
-    background-color: black;
-    width: 180px;
-    height: 70px;
-    margin-right: 20px;
-    color: white;
-    border-radius: 12px;
-    padding: 20px;
-    cursor: pointer;
     background-image: url('../../../assets/img/download-android-logo.svg');
-    background-size: 120px 50px;
-    background-position: center;
 }
 
 .download-btn:hover {
@@ -80,7 +72,7 @@ export default {
 
 @media only screen and (max-width: 1300px) {
     .deliver-packages-header {
-        padding-top: 180px;
+        padding-top: 120px;
         font-size: 40px;
     }
 
@@ -90,12 +82,17 @@ export default {
 }
 @media only screen and (max-width: 600px) {
     .deliver-packages-header {
-        padding-top: 100px;
-        font-size: 40px;
+        padding-top: 15 0px;
+            font-size: 50px;
     }
 
     .deliver-packages-text {
         font-size: 20px;
     }
+.download-btn {
+    width: 180px;
+    height: 60px;
+    background-size: 90px 40px;
+}
 }
 </style>

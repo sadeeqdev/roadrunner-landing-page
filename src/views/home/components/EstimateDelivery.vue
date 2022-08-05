@@ -28,7 +28,7 @@
         </v-col>
         <v-spacer></v-spacer>
         <v-col md="6" sm="12" xs="12" class="d-flex justify-center">
-            <p style="color:#042C5B; font-size:4em; font-weight: 700;">
+            <p class="find-and-connect">
                 Find & connect to the<br /> nearest rider for your<br /> deliveries with<br /> Roadrunner.
             </p>
         </v-col>
@@ -48,6 +48,11 @@ export default {
     padding: 40px 45px;
  }
 
+ .find-and-connect {
+     color: #042C5B;
+     font-size: 4em;
+     font-weight: 700;
+ }
 .estimate-delivery-body {
     width: 90%;
     margin: auto;
@@ -63,6 +68,18 @@ export default {
 .estimate-delivery-body {
     width: 99%;
     margin: auto;
-    padding: 50px 0;
-}}
+    padding: 0px 0;
+        display: flex;
+        direction: column-reverse;
+        ;
+    }
+    
+    .find-and-connect {
+        color: #042C5B;
+        font-size: 3em;
+        font-weight: 700;
+        padding: 20px 12px;
+    }
+    
+    }
 </style>

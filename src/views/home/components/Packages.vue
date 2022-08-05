@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <p style="font-size:3.4em; width:90%; margin:auto; color:#042C5B; font-weight: 700;">
+        <p class="package-header">
             We Deliver More Than Your Packages
         </p>
         <v-row style="width:90%; margin:auto; padding: 20px 0;">
@@ -59,6 +59,13 @@ export default {
     border-radius: 12px;
 }
 
+.package-header {
+    font-size: 3.4em;
+    width: 90%;
+    margin: auto;
+    color: #042C5B;
+    font-weight: 700;
+}
 .packages-text h2 {
     font-weight: 700;
     font-size: 32px;
