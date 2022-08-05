@@ -1,8 +1,8 @@
 <template>
     <div style="background-color: #fff;">
-        <v-row style="width:90%; margin:auto; padding: 80px 0;">
-            <v-col md="6" sx="12">
-                <p style="color:#042C5B; font-size:4em; font-weight: 700; margin-top: 180px;">
+        <v-row class="get-started-body">
+            <v-col cols="12" md="6" sx="12">
+                <p class="earn-monthly">
                     Earn Over<br /> ₦50,000 Monthly<br /> As A Rider.
                 </p>
                 <v-btn style="text-transform: capitalize; font-size: 20px; font-weight: 500;" color="secondary"
@@ -10,7 +10,7 @@
                 </v-btn>
             </v-col>
             <v-spacer></v-spacer>
-            <v-col md="6" xs="12">
+            <v-col cols="12" md="6" xs="12">
                 <div class="get-started-bg">
                     <img width="100%" height="auto" src="../../../assets/img/get-started-bg.png" />
                 </div>
@@ -25,8 +25,33 @@ export default {
 }
 </script>
 
-<style>
-.download-btn:hover {
-    background-color: #042C5B;
+<style scoped>
+.get-started-body {
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.earn-monthly{
+    color: #042C5B;
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 180px;
+}
+
+@media only screen and (max-width: 600px) {
+.get-started-body {
+    width: 95%;
+    margin: auto;
+    padding: 0px 0;
+}
+
+.earn-monthly {
+    color: #042C5B;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
 }
 </style>

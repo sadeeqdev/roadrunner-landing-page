@@ -1,8 +1,8 @@
 <template>
-    <v-row style="width:90%; margin:auto; padding:150px 0;">
-        <v-col md="6" sm="12" xs="12">
-            <v-card class="px-12 py-15" style="width:76%; margin:0">
-                <p style="font-size:2em; color:#000; font-weight: 700;">
+    <v-row class="estimate-delivery-body">
+        <v-col cols="12" md="6" sm="12" xs="12">
+            <v-card class="estimate-delivery-box">
+                <p style=" font-size:2em; color:#000; font-weight: 700;">
                     Estimate Delivery
                 </p>
                 <v-text-field outlined placeholder="Enter pick-up location">
@@ -41,36 +41,28 @@ export default {
 }
 </script>
 
-<style>
-.download-btn:first-child {
-    background-color: black;
-    width: 180px;
-    height: 70px;
-    margin-right: 20px;
-    color: white;
-    border-radius: 12px;
-    padding: 20px;
-    cursor: pointer;
-    background-image: url('../../../assets/img/download-apple-logo.svg');
-    background-size: 120px 60px;
-    background-position: center;
+<style scoped>
+ .estimate-delivery-box{
+    width: 76%;
+    margin: 0;
+    padding: 40px 45px;
+ }
+
+.estimate-delivery-body {
+    width: 90%;
+    margin: auto;
+    padding: 150px 0;
 }
 
-.download-btn:last-child {
-    background-color: black;
-    width: 180px;
-    height: 70px;
-    margin-right: 20px;
-    color: white;
-    border-radius: 12px;
-    padding: 20px;
-    cursor: pointer;
-    background-image: url('../../../assets/img/download-android-logo.svg');
-    background-size: 120px 50px;
-    background-position: center;
-}
+ @media only screen and (max-width: 600px) {
+.estimate-delivery-box {
+    width: 100%;
+    margin: 0;
+    padding: 40px 25px;}
 
-.download-btn:hover {
-    background-color: #042C5B;
-}
+.estimate-delivery-body {
+    width: 99%;
+    margin: auto;
+    padding: 50px 0;
+}}
 </style>

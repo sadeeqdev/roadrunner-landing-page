@@ -2,7 +2,7 @@
     <v-row style="width:90%; margin:auto">
         <v-col lg="4" md="5" xs="12">
             <v-card flat color="transparent">
-                <p class="deliver-packages-header mt-xs-0">
+                <p class="deliver-packages-header">
                     Deliver Your<br />
                     Packages<br />
                     Comfortably
@@ -77,9 +77,20 @@ export default {
 .download-btn:hover {
     background-color: #042C5B;
 }
+
 @media only screen and (max-width: 1300px) {
     .deliver-packages-header {
         padding-top: 180px;
+        font-size: 40px;
+    }
+
+    .deliver-packages-text {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .deliver-packages-header {
+        padding-top: 100px;
         font-size: 40px;
     }
 

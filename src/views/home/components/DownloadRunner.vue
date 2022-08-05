@@ -26,6 +26,33 @@ export default {
 </script>
 
 <style scoped>
+.download-btn:first-child {
+    background-color: black;
+    width: 180px;
+    height: 70px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    background-image: url('../../../assets/img/download-apple-logo.svg');
+    background-size: 120px 60px;
+    background-position: center;
+}
+
+.download-btn:last-child {
+    background-color: black;
+    width: 180px;
+    height: 70px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    background-image: url('../../../assets/img/download-android-logo.svg');
+    background-size: 120px 50px;
+    background-position: center;
+}
 .download-btn:hover {
     background-color: #042C5B;
 }
