@@ -40,7 +40,6 @@ export default {
 .welcome-banner {
     width: 100vw;
     height: auto;
-    padding-top: 300px;
     padding-bottom: 100px;
     background-image: url('../../assets/img/roadrunner-background.png');
     background-size: 100vw auto;

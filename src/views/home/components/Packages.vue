@@ -4,7 +4,7 @@
             We Deliver More Than Your Packages
         </p>
         <v-row style="width:90%; margin:auto; padding: 20px 0;">
-            <v-col cols="3">
+            <v-col cols="12" lg="3" md="3" sm="12" xs="12">
                 <div class="packages-box d-flex justify-center align-center">
                     <img width="70%" height="auto" src="../../../assets/img/Layer_36.svg" />
                 </div>
@@ -13,7 +13,7 @@
                     <p>Deliver your packages with peace of mind </p>
                 </div>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="12" lg="3" md="3" sm="12" xs="12">
                 <div class="packages-box d-flex justify-center align-center">
                     <img width="70%" height="auto" src="../../../assets/img/track_delivery.svg" />
                 </div>
@@ -22,7 +22,7 @@
                     <p>Know where your package is at any time.</p>
                 </div>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="12" lg="3" md="3" sm="12" xs="12">
                 <div class="packages-box d-flex justify-center align-center">
                     <img width="70%" height="auto" src="../../../assets/img/Layer_43.svg" />
                 </div>
@@ -32,7 +32,7 @@
                         packages.</p>
                 </div>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="12" md="3" sm="12" xs="12">
                 <div class="packages-box d-flex justify-center align-center">
                     <img width="70%" height="auto" src="../../../assets/img/Easy_paymnt.svg" />
                 </div>
@@ -51,9 +51,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .packages-box {
-    width: 95%;
+    width: 100%;
     height: 350px;
     background-color: #F3F5F7;
     border-radius: 12px;

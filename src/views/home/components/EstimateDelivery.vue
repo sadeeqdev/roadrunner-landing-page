@@ -1,6 +1,6 @@
 <template>
     <v-row style="width:90%; margin:auto; padding:150px 0;">
-        <v-col cols="6">
+        <v-col md="6" sm="12" xs="12">
             <v-card class="px-12 py-15" style="width:76%; margin:0">
                 <p style="font-size:2em; color:#000; font-weight: 700;">
                     Estimate Delivery
@@ -27,7 +27,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="6" class="d-flex justify-center">
+        <v-col md="6" sm="12" xs="12" class="d-flex justify-center">
             <p style="color:#042C5B; font-size:4em; font-weight: 700;">
                 Find & connect to the<br /> nearest rider for your<br /> deliveries with<br /> Roadrunner.
             </p>

@@ -1,7 +1,7 @@
 <template>
     <div style="background-color: #fff;">
         <v-row style="width:90%; margin:auto; padding: 80px 0;">
-            <v-col cols="6">
+            <v-col md="6" sx="12">
                 <p style="color:#042C5B; font-size:4em; font-weight: 700; margin-top: 180px;">
                     Earn Over<br /> ₦50,000 Monthly<br /> As A Rider.
                 </p>
@@ -10,7 +10,7 @@
                 </v-btn>
             </v-col>
             <v-spacer></v-spacer>
-            <v-col cols="6">
+            <v-col md="6" xs="12">
                 <div class="get-started-bg">
                     <img width="100%" height="auto" src="../../../assets/img/get-started-bg.png" />
                 </div>

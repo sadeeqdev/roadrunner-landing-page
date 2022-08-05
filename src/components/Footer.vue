@@ -1,10 +1,10 @@
 <template>
-    <v-card class="d-flex flex-column" style="width:90%; margin:80px auto" color="transparent" elevation="0"
+    <v-card class="d-flex flex-column flex-wrap" style="width:90%; margin:80px auto" color="transparent" elevation="0"
         height="auto">
         <div class="d-flex flex-row pb-8" style="border-bottom:2px solid #F3F5F7">
             <img style="width: 98px; height:98px; padding-top: 10px;" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
-            <div>
+            <div class="d-flex flex-wrap">
                 <v-btn class="navbar-buttons" x-large text>
                     How it works
                 </v-btn>
@@ -25,7 +25,7 @@
                 </v-btn>
             </div>
         </div>
-        <div class="d-flex flex-row mt-5 pb-2">
+        <div class="d-flex flex-row flex-wrap mt-5 pb-2">
             <p style="font-weight: 400; color:#042C5B; margin-top: 15px;" class="mr-3">
                 Copyright © 2022, Road Runner
             </p>

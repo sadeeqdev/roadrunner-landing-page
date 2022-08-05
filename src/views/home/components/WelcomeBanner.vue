@@ -1,13 +1,13 @@
 <template>
     <v-row style="width:90%; margin:auto">
-        <v-col cols="4">
+        <v-col lg="4" md="5" xs="12">
             <v-card flat color="transparent">
-                <p class="deliver-packages-header" style="color:#042C5B; font-size:4.5em; font-weight: 700;">
+                <p class="deliver-packages-header mt-xs-0">
                     Deliver Your<br />
                     Packages<br />
                     Comfortably
                 </p>
-                <p class="deliver-packages-text" style="color:#525252; font-size: 2em; font-weight:500;">
+                <p class="deliver-packages-text">
                     Deliver Your Packages The Right Way
                 </p>
                 <div class="d-flex flex-row mt-10">
@@ -19,9 +19,9 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="7">
+        <v-col lg="7" md="7" xs="12">
             <div class="banner-image">
-                <img width="100%" height="auto" src="../../../assets/img/roadrunner-bike.png" />
+                <img width="100%" height="auto" src="../../../assets/img/group-14.png" />
             </div>
         </v-col>
     </v-row>
@@ -34,6 +34,18 @@ export default {
 </script>
 
 <style scoped>
+.deliver-packages-header {
+    color: #042C5B;
+    font-size: 4.5em;
+    font-weight: 700;
+    padding-top: 250px;
+}
+
+.deliver-packages-text {
+    color: #525252;
+    font-size: 2em;
+    font-weight: 500;
+}
 .download-btn:first-child {
     background-color: black;
     width: 180px;
@@ -64,5 +76,15 @@ export default {
 
 .download-btn:hover {
     background-color: #042C5B;
+}
+@media only screen and (max-width: 1300px) {
+    .deliver-packages-header {
+        padding-top: 180px;
+        font-size: 40px;
+    }
+
+    .deliver-packages-text {
+        font-size: 20px;
+    }
 }
 </style>

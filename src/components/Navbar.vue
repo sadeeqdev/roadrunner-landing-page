@@ -4,23 +4,19 @@
         <div style="width:92%; margin:auto;" class="d-flex flex-row">
             <img style=" width: 98px; height:98px; padding-top: 10px;" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
-            <div class="navbar-buttons mt-4">
+            <div class="navbar-buttons mt-4 d-none d-md-flex">
                 <v-btn x-large text>
                     How it works
                 </v-btn>
-
                 <v-btn x-large text>
                     Company
                 </v-btn>
-
                 <v-btn x-large text>
                     Finance
                 </v-btn>
-
                 <v-btn x-large text>
                     FAQs
                 </v-btn>
-
                 <v-btn color="#042C5B"
                     style="margin-right:20px; border: 2px solid #042C5B; font-weight: 500; width:160px;" x-large
                     outlined>
