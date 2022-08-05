@@ -8,7 +8,7 @@
             </v-col>
             <v-spacer></v-spacer>
             <v-col md="4" xs="12">
-                <div class="d-flex flex-row justify-end mt-5">
+                <div class="d-flex flex-row justify-end justify-sm-start mt-5">
                     <div class="download-btn">
                     </div>
                     <div class="download-btn">
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style scoped>
-.download-btn:first-child {
+.download-btn {
     background-color: black;
     width: 180px;
     height: 70px;
@@ -35,30 +35,29 @@ export default {
     border-radius: 12px;
     padding: 20px;
     cursor: pointer;
-    background-image: url('../../../assets/img/download-apple-logo.svg');
-    background-size: 120px 60px;
-    background-position: center;
-}
-
-.download-btn:last-child {
-    background-color: black;
-    width: 180px;
-    height: 70px;
-    margin-right: 20px;
-    color: white;
-    border-radius: 12px;
-    padding: 20px;
-    cursor: pointer;
-    background-image: url('../../../assets/img/download-android-logo.svg');
     background-size: 120px 50px;
     background-position: center;
 }
+
+.download-btn:first-child {
+    background-image: url('../../../assets/img/download-apple-logo.svg');
+}
+.download-btn:last-child {
+    background-image: url('../../../assets/img/download-android-logo.svg');
+}
 .download-btn:hover {
-    background-color: #042C5B;
+    background-color: #cfcfcf;
 }
 
 .link-text {
     text-decoration-line: underline;
     color: #F4842B;
+}
+@media only screen and (max-width: 600px) {
+    .download-btn {
+        width: 180px;
+        height: 60px;
+        background-size: 90px 40px;
+    }
 }
 </style>

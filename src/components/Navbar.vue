@@ -1,6 +1,6 @@
 <template>
-    <v-app-bar style="background-color:transparent" :class="{ 'setScrollColor': scrolled, 'white': scrolled }"
-        elevate-on-scroll fixed class="nav-appbar">
+    <v-app-bar height="90px" style="background-color:transparent"
+        :class="{ 'setScrollColor': scrolled, 'white': scrolled }" elevate-on-scroll fixed class="nav-appbar">
         <div class="navbar-body d-flex flex-row">
             <img class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
@@ -62,9 +62,9 @@ export default {
 }
 
 .navbar-image {
-    width: 98px;
-    height: 98px;
-    padding-top: 10px;
+    width: 90px;
+        height: 90px;
+        margin-top: 5px;
 
 }
 
@@ -93,7 +93,7 @@ export default {
         width: 60px;
         height: 60px;
         padding-top: 0px;
-
+        margin-top: 0;
     }
 }
 </style>

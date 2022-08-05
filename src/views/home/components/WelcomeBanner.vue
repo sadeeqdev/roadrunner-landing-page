@@ -1,6 +1,6 @@
 <template>
     <v-row style="width:90%; margin:auto">
-        <v-col lg="4" md="5" xs="12">
+        <v-col cols="12" lg="4" md="5" xs="12">
             <v-card flat color="transparent">
                 <p class="deliver-packages-header">
                     Deliver Your<br />
@@ -19,7 +19,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col lg="7" md="7" xs="12">
+        <v-col cols="12" lg="7" md="7" xs="12">
             <div class="banner-image">
                 <img width="100%" height="auto" src="../../../assets/img/group-14.png" />
             </div>
@@ -70,9 +70,9 @@ export default {
     background-color: #042C5B;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1600px) {
     .deliver-packages-header {
-        padding-top: 120px;
+        padding-top: 180px;
         font-size: 40px;
     }
 
