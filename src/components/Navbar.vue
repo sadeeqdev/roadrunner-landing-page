@@ -4,6 +4,9 @@
         <div class="navbar-body d-flex flex-row">
             <img class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
+            <v-btn class="d-flex d-sm-none" icon>
+                <v-icon>mdi-menu</v-icon>
+            </v-btn>
             <div class="navbar-buttons mt-4 d-none d-md-flex">
                 <v-btn x-large text>
                     How it works
