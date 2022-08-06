@@ -6,6 +6,7 @@ import Finance from "../views/finance/Finance.vue";
 import FAQs from "../views/faqs/FAQs.vue";
 import HowItWorks from "../views/howItWorks/HowItWorks.vue";
 import ContactUs from "../views/contactUs/ContactUs.vue";
+import SignUp from "../views/signUp/SignUp.vue";
 
 Vue.use(VueRouter);
 
@@ -58,6 +59,14 @@ const routes = [
     path: "/contactus",
     name: "contactus",
     component: ContactUs,
+    meta: {
+      layout: "content",
+    },
+  },
+  {
+    path: "/signup",
+    name: "signup",
+    component: SignUp,
     meta: {
       layout: "content",
     },

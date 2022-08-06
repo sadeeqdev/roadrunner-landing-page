@@ -32,14 +32,14 @@
                 <v-btn @click="$router.push('/faqs')" x-large text>
                     FAQs
                 </v-btn>
-                <v-btn @click="$router.push('/')" color="#042C5B"
+                <v-btn @click="$router.push('/signup')" color="#042C5B"
                     style="margin-right:20px; border: 2px solid #042C5B; font-weight: 500; width:160px;" x-large
                     outlined>
                     Log In
                 </v-btn>
 
-                <v-btn @click="$router.push('/')" color="#042C5B" style="color:white; font-weight: 500; width:160px"
-                    x-large>
+                <v-btn @click="$router.push('/signup')" color="#042C5B"
+                    style="color:white; font-weight: 500; width:160px" x-large>
                     Sign Up
                 </v-btn>
             </div>
