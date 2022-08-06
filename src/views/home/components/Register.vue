@@ -87,6 +87,7 @@ export default {
     text-decoration-line: underline;
     color: #F4842B;
 }
+
 @media only screen and (max-width: 600px) {
     .register-header {
         font-size: 2.4em;
