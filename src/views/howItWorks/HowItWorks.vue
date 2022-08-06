@@ -9,7 +9,7 @@
                     Our main goal is your convenience, we help deliver your package to your desired destination
                 </p>
             </div>
-            <v-timeline class="how-timeline">
+            <v-timeline reverse>
                 <v-timeline-item large fill-dot>
                     <template v-slot:icon>
                         <div
@@ -18,10 +18,10 @@
                         </div>
 
                     </template>
-                    <card flat color=" transparent" slot="opposite">
-                        <img class="timeline-img" src="../../assets/img/timeline-img-1.png" />
+                    <card flat color=" transparent">
+                        <img class="timeline-img" style="float: right;" src="../../assets/img/timeline-img-1.png" />
                     </card>
-                    <v-card color="transparent" flat>
+                    <v-card color="transparent" flat slot="opposite">
                         <p class="timeline-header-text">
                             Customer opens roadrunner app
                         </p>
@@ -55,7 +55,7 @@
                     </card>
                 </v-timeline-item>
             </v-timeline>
-            <v-timeline class="how-timeline">
+            <v-timeline reverse>
                 <v-timeline-item large fill-dot>
                     <template v-slot:icon>
                         <div
@@ -63,10 +63,10 @@
                             <span>3</span>
                         </div>
                     </template>
-                    <card flat color="transparent" slot="opposite">
-                        <img class="timeline-img" src="../../assets/img/timeline-img-3.png" />
+                    <card flat color="transparent">
+                        <img class="timeline-img" style="float: right;" src="../../assets/img/timeline-img-3.png" />
                     </card>
-                    <v-card color="transparent" flat>
+                    <v-card color="transparent" flat slot="opposite">
                         <p class="timeline-header-text">
                             The Rider picks up the package
                         </p>
@@ -99,25 +99,28 @@
                     </card>
                 </v-timeline-item>
             </v-timeline>
-            <v-timeline class="how-timeline">
-                <v-timeline-item large fill-dot>
+            <v-timeline reverse>
+                <v-timeline-item reverse large fill-dot>
                     <template v-slot:icon>
                         <div
                             style="width:100%; height:100%; background-color:#FEF3EC; color:#F4842B; font-size:20px; padding-top: 8px; font-weight: 700; border-radius:50px; border:2px solid #F4842B; text-align: center;">
                             <span>5</span>
                         </div>
                     </template>
-                    <card flat color="transparent" slot="opposite">
-                        <img class="timeline-img" src="../../assets/img/timeline-img-4.png" />
+                    <card flat color="transparent">
+                        <img class="timeline-img" style="float: right;" src="../../assets/img/timeline-img-4.png" />
                     </card>
-                    <v-card color="transparent" flat>
-                        <p class="timeline-header-text">
-                            The customer rates the rider
-                        </p>
-                        <p class="timeline-text">
-                            After the ride, the customer rates the rider based on their experience with the rider.
-                        </p>
+                    <v-card flat class="" color="transparent" slot="opposite">
+                        <div>
+                            <p class="timeline-header-text">
+                                The customer rates the rider
+                            </p>
+                            <p class="timeline-text">
+                                After the ride, the customer rates the rider based on their experience with the rider.
+                            </p>
+                        </div>
                     </v-card>
+
                 </v-timeline-item>
             </v-timeline>
         </div>
@@ -154,14 +157,12 @@ export default {
     font-weight: 700;
     font-size: 22px;
     color: #000;
-    text-align: left;
 }
 
 .timeline-text {
     font-weight: 500;
     font-size: 18px;
     color: #525252;
-    text-align: left;
 }
 
 .theme--light.v-timeline:before {
