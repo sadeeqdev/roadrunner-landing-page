@@ -30,12 +30,14 @@
                 </div>
             </v-col>
             <v-col cols="12" md="6" xs="12" class="signup-image d-flex flex-column align-center justify-center">
-                <div class="signup-image-header mb-15 pb-16">
-                    Make deliveries across your city
-                </div>
-                <img width="50%" height="auto" src="../../assets/img/login-img.svg" />
-                <div class="mt-16 pt-16">
-                    Request for bikes, tricycles, cars, mini-vans, and trucks.
+                <div class="signup-image-content">
+                    <div class="signup-image-header mb-15 pb-16">
+                        Make deliveries across your city
+                    </div>
+                    <img width="50%" height="auto" src="../../assets/img/login-img.svg" />
+                    <div class="mt-16 pt-16">
+                        Request for bikes, tricycles, cars, mini-vans, and trucks.
+                    </div>
                 </div>
             </v-col>
         </v-row>
@@ -60,6 +62,11 @@ export default {
 .signup-content {
     width: 100%;
     margin-left: 10%;
+}
+
+.signup-image-content {
+    width: 90%;
+    margin: auto
 }
 
 .signup-image {
@@ -95,14 +102,18 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
-    .contact-search-bar {
-        width: 100%;
+    .signup-image-content {
+        width: 90%;
+        margin: auto
     }
 
-    .complain-form {
-        padding: 40px 20px;
-        width: 100%;
-        float: right;
+    .signup-content {
+        margin-left: 5%;
+    }
+
+    .signup-form {
+        margin: 115px 0;
+        width: 90%;
     }
 }
 </style>
