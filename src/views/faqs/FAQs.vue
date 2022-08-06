@@ -17,7 +17,7 @@
                 <v-expansion-panels style="background-color: #F5F5F5;" flat color="#F5F5F5">
                     <v-expansion-panel style="background-color: #F5F5F5; border-bottom: 1px solid #cccccc;"
                         color="#F5F5F5" v-for="(item, i) in panelData" :key="i">
-                        <v-expansion-panel-header class="faq-panel-header">
+                        <v-expansion-panel-header class="faq-panel-header px-0">
                             {{ item.header }}
                         </v-expansion-panel-header>
                         <v-expansion-panel-content class="faq-panel-content">

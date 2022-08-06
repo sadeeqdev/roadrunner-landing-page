@@ -7,15 +7,19 @@
                 </p>
             </div>
             <v-row class="mission-statement d-flex flex-row justify-space-between">
-                <v-col cols="12" md="7" xs="12">
-                    <p class="mission-header">
-                        Our Mission Statement
-                    </p>
-                    <p class="mission-text">
-                        Our mission is to deliver a positive, reliable experience to each and every one of our clients
-                        while offering exceptional value in the marketplace and setting the standard for professionalism
-                        in the logistic solutions we provide.
-                    </p>
+                <v-col cols="12" md="7" xs="12" class="d-flex flex-row align-center">
+                    <div>
+                        <p class="mission-header">
+                            Our Mission Statement
+                        </p>
+                        <p class="mission-text">
+                            Our mission is to deliver a positive, reliable experience to each and every one of our
+                            clients
+                            while offering exceptional value in the marketplace and setting the standard for
+                            professionalism
+                            in the logistic solutions we provide.
+                        </p>
+                    </div>
                 </v-col>
                 <v-spacer></v-spacer>
                 <v-col cols="12" md="5" xs="12" class="d-flex justify-end">
@@ -29,21 +33,24 @@
                     <img class="message-bar-img" src="../../assets/img/ceo-img.png" />
 
                 </v-col>
-                <v-col cols="12" md="7" xs="12">
-                    <p class="message-header">
-                        Message From The CEO
-                    </p>
-                    <p class="message-text">
-                        "At Roadrunner, our operating philosophy is founded on maintaining the highest level of quality
-                        service in the most efficient manner possible. We are committed to continuous process
-                        improvement through leadership, innovation, and technology"
-                    </p>
-                    <p class="message-sub-text">
-                        Mustapha Ibrahim
-                    </p>
-                    <p class="message-end-text">
-                        Founder/CEO, Road Runner.
-                    </p>
+                <v-col cols="12" md="7" xs="12" class="d-flex flex-row align-center">
+                    <div>
+                        <p class="message-header">
+                            Message From The CEO
+                        </p>
+                        <p class="message-text">
+                            "At Roadrunner, our operating philosophy is founded on maintaining the highest level of
+                            quality
+                            service in the most efficient manner possible. We are committed to continuous process
+                            improvement through leadership, innovation, and technology"
+                        </p>
+                        <p class="message-sub-text">
+                            Mustapha Ibrahim
+                        </p>
+                        <p class="message-end-text">
+                            Founder/CEO, Road Runner.
+                        </p>
+                    </div>
                 </v-col>
             </v-row>
         </div>
@@ -78,7 +85,6 @@ export default {
 .mission-header {
     font-weight: 700;
     font-size: 32px;
-    padding-top: 80px;
     color: #042C5B;
 }
 
@@ -114,7 +120,6 @@ export default {
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
-    padding-top: 120px;
     color: #FFFFFF;
 }
 
@@ -152,10 +157,9 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
-    .timeline-img {
+.message-bar-img {
         width: 100%;
-        margin: 0 0px;
-        height: auto;
+        height: auto
     }
 }
 </style>

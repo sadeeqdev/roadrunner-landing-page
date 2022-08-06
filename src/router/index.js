@@ -7,6 +7,8 @@ import FAQs from "../views/faqs/FAQs.vue";
 import HowItWorks from "../views/howItWorks/HowItWorks.vue";
 import ContactUs from "../views/contactUs/ContactUs.vue";
 import SignUp from "../views/signUp/SignUp.vue";
+import TermsAndConditions from "../views/termsAndConditions/TermsAndConditions.vue";
+import PrivacyPolicy from "../views/privacyPolicy/PrivacyPolicy.vue";
 
 Vue.use(VueRouter);
 
@@ -67,6 +69,22 @@ const routes = [
     path: "/signup",
     name: "signup",
     component: SignUp,
+    meta: {
+      layout: "content",
+    },
+  },
+  {
+    path: "/termsandconditions",
+    name: "termsandconditions",
+    component: TermsAndConditions,
+    meta: {
+      layout: "content",
+    },
+  },
+  {
+    path: "/privacypolicy",
+    name: "privacypolicy",
+    component: PrivacyPolicy,
     meta: {
       layout: "content",
     },
