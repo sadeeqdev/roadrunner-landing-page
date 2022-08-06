@@ -2,31 +2,32 @@
     <v-app-bar height="90px" style="background-color:transparent"
         :class="{ 'setScrollColor': scrolled, 'white': scrolled }" elevate-on-scroll fixed class="nav-appbar">
         <div class="navbar-body d-flex flex-row">
-            <img class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
+            <img @click="$router.push('/')" class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
             <v-btn class="d-flex d-sm-none" icon>
                 <v-icon>mdi-menu</v-icon>
             </v-btn>
             <div class="navbar-buttons mt-4 d-none d-md-flex">
-                <v-btn x-large text>
+                <v-btn @click="$router.push('/howitworks')" x-large text>
                     How it works
                 </v-btn>
-                <v-btn x-large text>
+                <v-btn @click="$router.push('/company')" x-large text>
                     Company
                 </v-btn>
-                <v-btn x-large text>
+                <v-btn @click="$router.push('/finance')" x-large text>
                     Finance
                 </v-btn>
-                <v-btn x-large text>
+                <v-btn @click="$router.push('/faqs')" x-large text>
                     FAQs
                 </v-btn>
-                <v-btn color="#042C5B"
+                <v-btn @click="$router.push('/')" color="#042C5B"
                     style="margin-right:20px; border: 2px solid #042C5B; font-weight: 500; width:160px;" x-large
                     outlined>
                     Log In
                 </v-btn>
 
-                <v-btn color="#042C5B" style="color:white; font-weight: 500; width:160px" x-large>
+                <v-btn @click="$router.push('/')" color="#042C5B" style="color:white; font-weight: 500; width:160px"
+                    x-large>
                     Sign Up
                 </v-btn>
             </div>
@@ -66,8 +67,9 @@ export default {
 
 .navbar-image {
     width: 90px;
-        height: 90px;
+    height: 90px;
         margin-top: 5px;
+    cursor: pointer
 
 }
 
