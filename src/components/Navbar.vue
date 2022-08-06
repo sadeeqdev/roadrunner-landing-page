@@ -11,9 +11,21 @@
                 <v-btn @click="$router.push('/howitworks')" x-large text>
                     How it works
                 </v-btn>
-                <v-btn @click="$router.push('/company')" x-large text>
-                    Company
-                </v-btn>
+                <v-menu rounded offset-y>
+                    <template v-slot:activator="{ attrs, on }">
+                        <v-btn v-bind="attrs" v-on="on" x-large text>
+                            Company<v-icon>mdi-chevron-down</v-icon>
+                        </v-btn>
+                    </template>
+                    <v-list>
+                        <v-list-item link to="/about">
+                            <v-list-item-title>About</v-list-item-title>
+                        </v-list-item>
+                        <v-list-item link to="/contactus">
+                            <v-list-item-title>Contact Us</v-list-item-title>
+                        </v-list-item>
+                    </v-list>
+                </v-menu>
                 <v-btn @click="$router.push('/finance')" x-large text>
                     Finance
                 </v-btn>

@@ -5,6 +5,7 @@ import Company from "../views/company/Company.vue";
 import Finance from "../views/finance/Finance.vue";
 import FAQs from "../views/faqs/FAQs.vue";
 import HowItWorks from "../views/howItWorks/HowItWorks.vue";
+import ContactUs from "../views/contactUs/ContactUs.vue";
 
 Vue.use(VueRouter);
 
@@ -30,7 +31,7 @@ const routes = [
     },
   },
   {
-    path: "/company",
+    path: "/about",
     name: "company",
     component: Company,
     meta: {
@@ -49,6 +50,14 @@ const routes = [
     path: "/howitworks",
     name: "howitworks",
     component: HowItWorks,
+    meta: {
+      layout: "content",
+    },
+  },
+  {
+    path: "/contactus",
+    name: "contactus",
+    component: ContactUs,
     meta: {
       layout: "content",
     },

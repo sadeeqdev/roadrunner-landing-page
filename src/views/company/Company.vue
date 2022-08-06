@@ -20,7 +20,6 @@
                 <v-spacer></v-spacer>
                 <v-col cols="12" md="5" xs="12" class="d-flex justify-end">
                     <img class="message-bar-img rounded" src="../../assets/img/timeline-img-4.png" />
-
                 </v-col>
             </v-row>
         </div>
