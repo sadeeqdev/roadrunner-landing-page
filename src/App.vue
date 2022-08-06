@@ -26,7 +26,6 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=DM+Sans');
 
 *{
-font-family:'DM Sans';
-
+  font-family: 'DM Sans';
 }
 </style>
