@@ -18,9 +18,9 @@
                         </div>
 
                     </template>
-                    <card flat color=" transparent">
+                    <v-card flat color=" transparent">
                         <img class="timeline-img" style="float: right;" src="../../assets/img/timeline-img-1.png" />
-                    </card>
+                    </v-card>
                     <v-card color="transparent" flat slot="opposite">
                         <p class="timeline-header-text">
                             Customer opens roadrunner app
@@ -50,9 +50,9 @@
                         </p>
 
                     </v-card>
-                    <card flat color="transparent">
+                    <v-card flat color="transparent">
                         <img class="timeline-img" src="../../assets/img/timeline-img-4.png" />
-                    </card>
+                    </v-card>
                 </v-timeline-item>
             </v-timeline>
             <v-timeline reverse>
@@ -63,9 +63,9 @@
                             <span>3</span>
                         </div>
                     </template>
-                    <card flat color="transparent">
+                    <v-card flat color="transparent">
                         <img class="timeline-img" style="float: right;" src="../../assets/img/timeline-img-3.png" />
-                    </card>
+                    </v-card>
                     <v-card color="transparent" flat slot="opposite">
                         <p class="timeline-header-text">
                             The Rider picks up the package
@@ -94,9 +94,9 @@
                         </p>
 
                     </v-card>
-                    <card flat color="transparent">
+                    <v-card flat color="transparent">
                         <img class="timeline-img" src="../../assets/img/timeline-img-2.png" />
-                    </card>
+                    </v-card>
                 </v-timeline-item>
             </v-timeline>
             <v-timeline reverse>
@@ -107,9 +107,9 @@
                             <span>5</span>
                         </div>
                     </template>
-                    <card flat color="transparent">
+                    <v-card flat color="transparent">
                         <img class="timeline-img" style="float: right;" src="../../assets/img/timeline-img-4.png" />
-                    </card>
+                    </v-card>
                     <v-card flat class="" color="transparent" slot="opposite">
                         <div>
                             <p class="timeline-header-text">
@@ -120,7 +120,6 @@
                             </p>
                         </div>
                     </v-card>
-
                 </v-timeline-item>
             </v-timeline>
         </div>
@@ -177,11 +176,18 @@ export default {
 }
 
 .timeline-img {
-    width: 400px;
+    width: 80%;
     margin: 0 50px;
     height: auto;
 }
 
+@media only screen and (min-width: 1800px) {
+    .timeline-img {
+        width: 500px;
+        margin: 0 0px;
+        height: auto;
+    }
+}
 @media only screen and (max-width: 600px) {
     .timeline-img {
         width: 100%;
