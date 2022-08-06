@@ -53,7 +53,7 @@
                             <label>What Is Your Complain</label>
                             <v-text-field outlined placeholder="Enter complain"></v-text-field>
                             <label>Package Description</label>
-                            <v-text-field multiline rows="3" outlined placeholder="Enter description"></v-text-field>
+                            <v-textarea multiline rows="3" outlined placeholder="Enter description"></v-textarea>
                             <v-btn width="100%" height="50px"
                                 style="font-size: 18px; font-weight: 500; line-height: 31px; color: #FEF3EC;"
                                 color="secondary">Submit
@@ -142,6 +142,7 @@ export default {
 
 .contact-search-bar {
     width: 70%;
+    margin: auto
 }
 
 @media only screen and (max-width: 600px) {
