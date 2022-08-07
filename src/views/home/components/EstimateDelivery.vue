@@ -27,7 +27,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col md="6" sm="12" xs="12" class="d-flex justify-center">
+        <v-col md="6" sm="12" xs="12" class="d-flex flex-row align-center justify-center">
             <p class="find-and-connect">
                 Find & connect to the<br /> nearest rider for your<br /> deliveries with<br /> Roadrunner.
             </p>
@@ -59,6 +59,13 @@ export default {
     padding: 150px 0;
 }
 
+ @media only screen and (max-width: 1600px) {
+     .find-and-connect {
+         color: #042C5B;
+         font-size: 3.5em;
+         font-weight: 700;
+     }
+ }
  @media only screen and (max-width: 600px) {
 .estimate-delivery-box {
     width: 100%;
