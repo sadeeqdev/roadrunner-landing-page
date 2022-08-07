@@ -41,9 +41,9 @@ export default {
     .finance-header {
         color: #042C5B;
         text-align: left;
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 700;
-        margin-top: 70px;
+        margin-top: 0px;
     }
 }
 </style>

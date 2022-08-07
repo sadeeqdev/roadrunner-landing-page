@@ -83,7 +83,7 @@ export default {
     .package-header {
         padding-top: 100px;
         width: 80%;
-        font-size: 3em;
+        font-size: 2em;
     }
 }
 </style>

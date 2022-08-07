@@ -29,7 +29,7 @@
         <v-spacer></v-spacer>
         <v-col md="6" sm="12" xs="12" class="d-flex flex-row align-center justify-center" data-aos="fade-up">
             <p class="find-and-connect">
-                Find & connect to the<br /> nearest rider for your<br /> deliveries with<br /> Roadrunner.
+                Find & connect to the nearest rider for your deliveries with Roadrunner.
             </p>
         </v-col>
     </v-row>
@@ -83,7 +83,8 @@ export default {
     
     .find-and-connect {
         color: #042C5B;
-        font-size: 3em;
+        font-size: 2em;
+            text-align: justify;
         font-weight: 700;
         padding: 00px 12px;
     }

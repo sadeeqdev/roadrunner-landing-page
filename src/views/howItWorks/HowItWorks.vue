@@ -94,7 +94,7 @@
                         </p>
 
                     </v-card>
-                    <v-card flat color="transparent">
+                    <v-card flat color="transparent" class="d-flex flex-row align-end">
                         <img class="timeline-img" src="../../assets/img/timeline-img-2.png" />
                     </v-card>
                 </v-timeline-item>
