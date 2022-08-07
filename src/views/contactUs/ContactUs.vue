@@ -31,7 +31,7 @@
                 <div class="list-header">
                     Legal
                 </div>
-                <div class="list-text" style="text-decoration-line:underline">
+                <div link to="/termsandconditions" class="list-text" style="text-decoration-line:underline">
                     Terms & Conditions
                 </div>
             </div>
