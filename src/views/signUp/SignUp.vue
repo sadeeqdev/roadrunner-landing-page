@@ -1,5 +1,5 @@
 <template>
-    <div class="signup-body">
+    <div class="signup-body" data-aos="fade-left">
         <v-row>
             <v-col cols="12" md="6" xs="12">
                 <div class="signup-content">

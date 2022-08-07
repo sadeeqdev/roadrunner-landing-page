@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <p class="package-header">
+        <p class="package-header" data-aos="fade-up">
             We Deliver More Than Your Packages
         </p>
         <v-row style="width:90%; margin:auto; padding: 20px 0;">

@@ -1,5 +1,5 @@
 <template>
-    <div class="contactus-body">
+    <div class="contactus-body" data-aos="fade-left">
         <div class="contactus-inner-body">
             <div class="contactus-inner-text">
                 <p class="contactus-header-text">
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div class="feedback-bar">
+        <div class="feedback-bar" data-aos="fade-up">
             <div class="feedback-body">
                 <v-row>
                     <v-col cols="12" md="6" xs="12" class="d-flex align-center">

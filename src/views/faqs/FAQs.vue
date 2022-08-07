@@ -1,5 +1,5 @@
 <template>
-    <div class="faqs-body">
+    <div class="faqs-body" data-aos="fade-left">
         <div class="faqs-inner-body">
             <div class="faqs-inner-text">
                 <p class="faqs-header-text">

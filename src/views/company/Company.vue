@@ -1,5 +1,5 @@
 <template>
-    <div class="company-body">
+    <div class="company-body" data-aos="fade-left">
         <div class="company-inner-body">
             <div class="company-inner-text">
                 <p class="company-header-text">
@@ -27,13 +27,13 @@
                 </v-col>
             </v-row>
         </div>
-        <div class="message-bar">
+        <div class="message-bar" data-aos="fade-up">
             <v-row class="message-bar-container d-flex flex-row justify-space-between">
-                <v-col cols="12" md="5" xs="12">
+                <v-col cols="12" md="5" xs="12" data-aos="fade-up">
                     <img class="message-bar-img" src="../../assets/img/ceo-img.png" />
 
                 </v-col>
-                <v-col cols="12" md="7" xs="12" class="d-flex flex-row align-center">
+                <v-col cols="12" md="7" xs="12" class="d-flex flex-row align-center" data-aos="fade-up">
                     <div>
                         <p class="message-header">
                             Message From The CEO

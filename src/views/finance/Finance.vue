@@ -1,7 +1,7 @@
 <template>
     <div style="
     background-color: #F3F5F7
-    ">
+    " data-aos="fade-left">
         <div class="finance-body">
             <div class="coming-soon-content">
                 <div class="d-flex flex-row justify-center">
@@ -23,9 +23,9 @@
                 </div>
             </div>
         </div>
-        <div class="acquire-bar">
+        <div class="acquire-bar" data-aos="fade-up">
             <v-row>
-                <v-col cols="12" md="6" xs="12" class="d-flex flex-row align-center">
+                <v-col cols="12" md="6" xs="12" class="d-flex flex-row align-center" data-aos="fade-up">
                     <div class="acquire-bar-text">
                         <div class="acquire-header">
                             Acquire New And Pre-Owned Vehicles In A Financially Convenient Manner.
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </v-col>
-                <v-col cols="12" md="6" xs="12">
+                <v-col cols="12" md="6" xs="12" data-aos="fade-up">
                     <div class="acquire-bar-img">
                         <img class="acquire-img rounded" src="../../assets/img/finance-img.svg" />
 
@@ -45,11 +45,11 @@
         </div>
         <div class="benefitsandperks-bar">
             <div class="bandf">
-                <div class="bandf-header">
+                <div class="bandf-header" data-aos="fade-up">
                     Benefits & Perks
                 </div>
                 <v-row class="benefits-box-bar">
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-1.svg" />
@@ -61,7 +61,7 @@
                     </v-col>
                     <v-spacer></v-spacer>
 
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-2.svg" />
@@ -73,7 +73,7 @@
                     </v-col>
                     <v-spacer></v-spacer>
 
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-3.svg" />
@@ -85,7 +85,7 @@
                     </v-col>
                     <v-spacer></v-spacer>
 
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-4.svg" />
@@ -97,7 +97,7 @@
                     </v-col>
                     <v-spacer></v-spacer>
 
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-5.svg" />
@@ -109,7 +109,7 @@
                     </v-col>
                     <v-spacer></v-spacer>
 
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-6.svg" />
@@ -120,7 +120,7 @@
                         </div>
                     </v-col>
                     <v-spacer></v-spacer>
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-7.svg" />
@@ -132,7 +132,7 @@
                     </v-col>
                     <v-spacer></v-spacer>
 
-                    <v-col cols="12" md="3" xs="12">
+                    <v-col data-aos="fade-up" cols="12" md="3" xs="12">
                         <div class="benefits-box">
                             <div class="benefits-logo">
                                 <img class="benfits-img rounded" src="../../assets/img/benefits-img-8.svg" />

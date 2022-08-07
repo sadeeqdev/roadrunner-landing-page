@@ -1,6 +1,6 @@
 <template>
     <div class="register-body">
-        <p class="register-header">
+        <p class="register-header" data-aos="fade-up">
             Get Started With Road Runner
         </p>
         <v-row style="width:90%; margin:20px auto; padding: 20px 0;" class="d-flex flex-row justify-space-between">
