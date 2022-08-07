@@ -46,7 +46,7 @@
                 </div>
             </div>
         </v-app-bar>
-        <v-navigation-drawer v-model="drawer" absolute temporary>
+        <v-navigation-drawer v-model="drawer" fixed temporary>
             <div class="d-flex flex-row justify-center">
                 <img @click="$router.push('/')" style="width:70px; margin-top: 10px; "
                     src="../assets/img/Roadrunner-Logo.svg">
