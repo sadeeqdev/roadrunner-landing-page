@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <v-row class="get-started-body d-flex d-column-reverse">
+        <v-row class="get-started-body d-flex d-column-reverse" data-aos="fade-up">
             <v-col cols="12" md="6" sx="12">
                 <p class="earn-monthly">
                     Earn Over<br /> ₦50,000 Monthly<br /> As A Rider.
@@ -9,7 +9,7 @@
                     width="250px" height="60px">Get Started
                 </v-btn>
             </v-col>
-            <v-col cols="12" md="6" xs="12">
+            <v-col cols="12" md="6" xs="12" data-aos="fade-left">
                 <div class="get-started-bg">
                     <img width="100%" height="auto" src="../../../assets/img/get-started-bg.png" />
                 </div>

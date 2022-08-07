@@ -1,6 +1,6 @@
 <template>
     <v-row style="width:90%; margin:auto" class="welcome-banner-row">
-        <v-col cols="12" lg="4" md="5" xs="12">
+        <v-col cols="12" lg="4" md="5" xs="12" data-aos="zoom-in">
             <v-card flat color="transparent">
                 <p class="deliver-packages-header">
                     Deliver Your<br />
@@ -19,7 +19,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="12" lg="7" md="7" xs="12">
+        <v-col cols="12" lg="7" md="7" xs="12" data-aos="zoom-in-left">
             <div class="banner-image">
                 <img width="100%" height="auto" src="../../../assets/img/group-14.png" />
             </div>

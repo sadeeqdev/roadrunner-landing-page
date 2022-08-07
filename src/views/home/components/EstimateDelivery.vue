@@ -1,6 +1,6 @@
 <template>
     <v-row class="estimate-delivery-body">
-        <v-col cols="12" md="6" sm="12" xs="12">
+        <v-col cols="12" md="6" sm="12" xs="12" data-aos="slide-up">
             <v-card class="estimate-delivery-box">
                 <p style=" font-size:2em; color:#000; font-weight: 700;">
                     Estimate Delivery
@@ -27,7 +27,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col md="6" sm="12" xs="12" class="d-flex flex-row align-center justify-center">
+        <v-col md="6" sm="12" xs="12" class="d-flex flex-row align-center justify-center" data-aos="fade-left">
             <p class="find-and-connect">
                 Find & connect to the<br /> nearest rider for your<br /> deliveries with<br /> Roadrunner.
             </p>

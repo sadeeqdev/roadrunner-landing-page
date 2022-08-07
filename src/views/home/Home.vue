@@ -1,5 +1,5 @@
 <template>
-    <div class="home-body">
+    <div class="home-body" data-aos="fade-left">
         <div class="welcome-banner">
             <WelcomeBanner />
         </div>
