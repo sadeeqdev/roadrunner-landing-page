@@ -1,5 +1,5 @@
 <template>
-    <v-row style="width:90%; margin:auto">
+    <v-row style="width:90%; margin:auto" class="welcome-banner-row">
         <v-col cols="12" lg="4" md="5" xs="12">
             <v-card flat color="transparent">
                 <p class="deliver-packages-header">
@@ -94,7 +94,8 @@ export default {
 }
 @media only screen and (max-width: 600px) {
 .deliver-packages-header {
-padding-top: 150px;
+    margin-top: -50px;
+        padding-top: 0px;
     font-size: 45px;
     font-weight: 800;
 }
@@ -106,6 +107,14 @@ padding-top: 150px;
     width: 180px;
     height: 60px;
     background-size: 90px 40px;
+}
+.banner-image {
+    margin-top: 0px;
+}
+
+.welcome-banner-row {
+    display: flex;
+    flex-direction: column-reverse;
 }
 }
 </style>
