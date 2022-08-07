@@ -166,7 +166,7 @@ export default {
 
 .theme--light.v-timeline:before {
     background: transparent;
-    border: 1px dashed #5CBAF6;
+    border-right: 1px dashed #5CBAF6;
 }
 
 .how-sub-header {
