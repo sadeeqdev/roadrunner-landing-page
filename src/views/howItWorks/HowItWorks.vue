@@ -1,5 +1,5 @@
 <template>
-    <div class="how-body">
+    <div class="how-body" data-aos="fade-left">
         <div class="how-inner-body">
             <div class="how-inner-text">
                 <p class="how-header-text">
@@ -10,7 +10,7 @@
                 </p>
             </div>
             <v-timeline reverse>
-                <v-timeline-item large fill-dot>
+                <v-timeline-item large fill-dot data-aos="fade-up">
                     <template v-slot:icon>
                         <div
                             style="width:100%; height:100%; background-color:#FEF3EC; color:#F4842B; font-size:20px; padding-top: 10px; font-weight: 700; border-radius:50px; border:2px solid #F4842B; text-align: center;">
@@ -34,7 +34,7 @@
                 </v-timeline-item>
             </v-timeline>
             <v-timeline>
-                <v-timeline-item large fill-dot>
+                <v-timeline-item large fill-dot data-aos="fade-up">
                     <template v-slot:icon>
                         <div
                             style="width:100%; height:100%; background-color:#FEF3EC; color:#F4842B; font-size:20px; padding-top: 10px; font-weight: 700; border-radius:50px; border:2px solid #F4842B; text-align: center;">
@@ -56,7 +56,7 @@
                 </v-timeline-item>
             </v-timeline>
             <v-timeline reverse>
-                <v-timeline-item large fill-dot>
+                <v-timeline-item large fill-dot data-aos="fade-up">
                     <template v-slot:icon>
                         <div
                             style="width:100%; height:100%; background-color:#FEF3EC; color:#F4842B; font-size:20px; padding-top: 8px; font-weight: 700; border-radius:50px; border:2px solid #F4842B; text-align: center;">
@@ -77,7 +77,7 @@
                 </v-timeline-item>
             </v-timeline>
             <v-timeline>
-                <v-timeline-item large fill-dot>
+                <v-timeline-item large fill-dot data-aos="fade-up">
                     <template v-slot:icon>
                         <div
                             style="width:100%; height:100%; background-color:#FEF3EC; color:#F4842B; font-size:20px; padding-top: 8px; font-weight: 700; border-radius:50px; border:2px solid #F4842B; text-align: center;">
@@ -100,7 +100,7 @@
                 </v-timeline-item>
             </v-timeline>
             <v-timeline reverse>
-                <v-timeline-item reverse large fill-dot>
+                <v-timeline-item reverse large fill-dot data-aos="fade-up">
                     <template v-slot:icon>
                         <div
                             style="width:100%; height:100%; background-color:#FEF3EC; color:#F4842B; font-size:20px; padding-top: 8px; font-weight: 700; border-radius:50px; border:2px solid #F4842B; text-align: center;">
