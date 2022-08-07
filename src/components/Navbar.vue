@@ -9,7 +9,7 @@
                     <v-icon>mdi-menu</v-icon>
                 </v-btn>
                 <div class="navbar-buttons mt-4 d-none d-md-flex">
-                    <v-btn @click="$router.push('/howitworks')" x-large text>
+                    <v-btn x-large text link to="/howitworks">
                         How it works
                     </v-btn>
                     <v-menu rounded offset-y>
@@ -27,20 +27,19 @@
                             </v-list-item>
                         </v-list>
                     </v-menu>
-                    <v-btn @click="$router.push('/finance')" x-large text>
+                    <v-btn x-large text link to="/finance">
                         Finance
                     </v-btn>
-                    <v-btn @click="$router.push('/faqs')" x-large text>
+                    <v-btn @click="$router.push('/faqs')" x-large text link to="/faqs">
                         FAQs
                     </v-btn>
-                    <v-btn @click="$router.push('/signup')" color="#042C5B"
+                    <v-btn color="#042C5B" link to="/signup"
                         style="margin-right:20px; border: 2px solid #042C5B; font-weight: 500; width:160px;" x-large
                         outlined>
                         Log In
                     </v-btn>
 
-                    <v-btn @click="$router.push('/signup')" color="#042C5B"
-                        style="color:white; font-weight: 500; width:160px" x-large>
+                    <v-btn color="#042C5B" link to="/signup" style="color:white; font-weight: 500; width:160px" x-large>
                         Sign Up
                     </v-btn>
                 </div>
@@ -101,7 +100,7 @@
                         </v-list-item-icon>
                         <v-list-item-title>Login</v-list-item-title>
                     </v-list-item>
-                    <v-list-item link to="signup">
+                    <v-list-item link to="/signup">
                         <v-list-item-icon>
                             <v-icon color="#042C5B">
                                 mdi-arrow-right-thin

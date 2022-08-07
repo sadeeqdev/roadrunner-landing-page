@@ -5,22 +5,22 @@
             <img style="width: 98px; height:98px; padding-top: 10px;" src="../assets/img/Roadrunner-Logo.svg">
             <v-spacer></v-spacer>
             <div class="d-flex flex-wrap flex-xs-column flex-row justify-sm-end">
-                <v-btn class="navbar-buttons" x-large text>
+                <v-btn class="navbar-buttons" x-large text link to="/howitworks">
                     How it works
                 </v-btn>
-                <v-btn class="navbar-buttons" x-large text>
+                <v-btn class="navbar-buttons" x-large text link to="/about">
                     About Us
                 </v-btn>
-                <v-btn class="navbar-buttons" x-large text>
+                <v-btn class="navbar-buttons" x-large text link to="/contactus">
                     Work With Us
                 </v-btn>
-                <v-btn class="navbar-buttons" x-large text>
+                <v-btn class="navbar-buttons" x-large text link to="/contactus">
                     Support
                 </v-btn>
-                <v-btn class="navbar-buttons" x-large text>
+                <v-btn class="navbar-buttons" x-large text link to="/termsandconditions">
                     Legal
                 </v-btn>
-                <v-btn class="navbar-buttons" x-large text>
+                <v-btn class="navbar-buttons" x-large text link to="/faqs">
                     FAQs
                 </v-btn>
             </div>
@@ -29,13 +29,14 @@
             <p style="font-weight: 400; color:#042C5B; margin-top: 15px;" class="mr-3">
                 Copyright © 2022, Road Runner
             </p>
-            <p class="navbar-buttons" style="font-weight: 500; margin-top: 15px; margin-right:20px; cursor:pointer"
-                x-large text>
+            <v-btn class="navbar-buttons" link to="/privacypolicy"
+                style="font-weight: 500; margin-top: 5px; margin-right:20px; cursor:pointer" large text>
                 Privacy Policy
-            </p>
-            <p class="navbar-buttons" style="font-weight: 500;  margin-top: 15px; cursor:pointer" x-large text>
+            </v-btn>
+            <v-btn class="navbar-buttons" link to="/termsandconditions"
+                style="font-weight: 500;  margin-top: 5px; cursor:pointer" large text>
                 Terms & Conditions
-            </p>
+            </v-btn>
             <v-spacer></v-spacer>
             <div class="d-flex flex-row">
                 <v-btn width="45px" height="45px" elevation="0"
