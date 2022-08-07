@@ -52,6 +52,7 @@ export default {
         padding-bottom: 100px;
         background-image: url('../../assets/img/roadrunner-background.png');
         background-size: 300vw 900px;
+        background-position: bottom center;
         background-repeat: no-repeat;
     }
 }
