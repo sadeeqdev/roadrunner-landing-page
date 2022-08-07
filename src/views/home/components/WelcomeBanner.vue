@@ -70,10 +70,22 @@ export default {
     background-color: #042C5B;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1650px) {
+    .deliver-packages-header {
+        padding-top: 150px;
+        font-size: 72px;
+    }
+
+    .deliver-packages-text {
+        font-size: 2em;
+    }
+}
+
+
+@media only screen and (max-width: 1500px) {
     .deliver-packages-header {
         padding-top: 180px;
-        font-size: 40px;
+        font-size: 55px;
     }
 
     .deliver-packages-text {
