@@ -286,7 +286,7 @@ margin-top: 50px;
     }
 
     .coming-soon-content {
-        padding-top: 200px;
+        padding-top: 70px;
         width: 90%;
         margin: auto;
     }
@@ -313,5 +313,10 @@ margin-top: 50px;
         width: 100%;
         float: right;
     }
+.acquire-bar {
+    width: 90%;
+    margin: auto;
+    margin: 100px auto;
+}
 }
 </style>
