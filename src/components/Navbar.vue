@@ -48,38 +48,67 @@
         </v-app-bar>
         <v-navigation-drawer v-model="drawer" absolute temporary>
             <div class="d-flex flex-row justify-center">
-                <img @click="$router.push('/')" style="width:70px; " src="../assets/img/Roadrunner-Logo.svg">
+                <img @click="$router.push('/')" style="width:70px; margin-top: 10px; "
+                    src="../assets/img/Roadrunner-Logo.svg">
             </div>
             <v-list nav dense class="px-0">
                 <v-list-item-group active-class="deep-blue--text text--white-4">
                     <v-list-item link to="/howitworks" class=" py-0">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
                         <v-list-item-title>How It Works</v-list-item-title>
                     </v-list-item>
-                    <v-divider></v-divider>
-                    <v-list-item>
-                        <v-list-item-title>Company</v-list-item-title>
+                    <v-list-item link to="/about">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-title>About</v-list-item-title>
                     </v-list-item>
-                    <v-divider></v-divider>
-
+                    <v-list-item link to="/contactus">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-title>Contac Us</v-list-item-title>
+                    </v-list-item>
                     <v-list-item link to="/finance">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
                         <v-list-item-title>Finance</v-list-item-title>
                     </v-list-item>
-                    <v-divider></v-divider>
-
-                    <v-list-item link to="faqs">
+                    <v-list-item link to="/faqs">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
                         <v-list-item-title>FAQs</v-list-item-title>
                     </v-list-item>
-                    <v-divider></v-divider>
-
                     <v-list-item link to="/signup">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
                         <v-list-item-title>Login</v-list-item-title>
                     </v-list-item>
-                    <v-divider></v-divider>
-
                     <v-list-item link to="signup">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
                         <v-list-item-title>Sign Up</v-list-item-title>
                     </v-list-item>
-                    <v-divider></v-divider>
                 </v-list-item-group>
             </v-list>
         </v-navigation-drawer>
