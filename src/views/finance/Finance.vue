@@ -277,4 +277,41 @@ margin-top:15px
 .benefits-box-bar{
 margin-top: 50px;
 }
+@media only screen and (max-width: 600px) {
+    .coming-soon-header {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 94px;
+        color: #F3F5F7;
+    }
+
+    .coming-soon-content {
+        padding-top: 200px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .notify-area {
+        width: 100%;
+        margin: 30px auto
+    }
+
+    .acquire-header {
+        font-weight: 700;
+        font-size: 52px;
+        color: #042C5B;
+    }
+
+    .acquire-subheader {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 141%;
+        color: #525252;
+    }
+
+    .acquire-img {
+        width: 100%;
+        float: right;
+    }
+}
 </style>
