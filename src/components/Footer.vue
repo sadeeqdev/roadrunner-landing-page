@@ -29,11 +29,11 @@
             <p style="font-weight: 400; color:#042C5B; margin-top: 15px;" class="mr-3">
                 Copyright © 2022, Road Runner
             </p>
-            <v-btn class="navbar-buttons" link to="/privacypolicy"
+            <v-btn class="navbar-buttons px-0" link to="/privacypolicy"
                 style="font-weight: 500; margin-top: 5px; margin-right:20px; cursor:pointer" large text>
                 Privacy Policy
             </v-btn>
-            <v-btn class="navbar-buttons" link to="/termsandconditions"
+            <v-btn class="navbar-buttons px-0" link to="/termsandconditions"
                 style="font-weight: 500;  margin-top: 5px; cursor:pointer" large text>
                 Terms & Conditions
             </v-btn>
@@ -79,6 +79,25 @@ export default {
     text-transform: capitalize;
     color: #042C5B
 }
+.v-btn--active {
+    color: #F4842B;
+    background-color: #fff !important;
+    ;
+    background: none !important;
+    ;
+}
+
+.v-btn::before {
+    background-color: transparent;
+}
+
+.v-btn:hover {
+    color: #F4842B;
+}
+
+.v-btn--active:hover {
+    color: #F4842B;
+}
 @media only screen and (max-width: 600px) {
     .navbar-body {
         width: 100%;
@@ -91,5 +110,6 @@ export default {
         padding-top: 0px;
         margin-top: 0;
     }
+
 }
 </style>

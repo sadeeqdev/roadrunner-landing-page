@@ -51,7 +51,7 @@
                     src="../assets/img/Roadrunner-Logo.svg">
             </div>
             <v-list nav dense class="px-0">
-                <v-list-item-group active-class="deep-blue--text text--white-4">
+                <v-list-item-group>
                     <v-list-item link to="/howitworks" class="py-0">
                         <v-list-item-icon>
                             <v-icon color="#042C5B">
@@ -153,6 +153,34 @@ export default {
 
 }
 
+.v-list-item--active {
+    background-color: #042C5B;
+    color: #F3F5F7
+}
+
+.v-btn--active,
+.v-list-item--active {
+    color: #F4842B;
+    background-color: #fff !important;
+    ;
+    background: none !important;
+    ;
+}
+
+.v-btn::before,
+.v-list-item::before {
+    background-color: transparent;
+}
+
+.v-btn:hover,
+.v-list-item:hover {
+    color: #042C5B;
+}
+
+.v-btn--active:hover,
+.v-list-item--active {
+    color: #F4842B;
+}
 .navbar-body {
     width: 92%;
     margin: auto;
