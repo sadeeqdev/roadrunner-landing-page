@@ -93,14 +93,15 @@ export default {
     }
 }
 @media only screen and (max-width: 600px) {
-    .deliver-packages-header {
-        padding-top: 15 0px;
-            font-size: 50px;
-    }
+.deliver-packages-header {
+padding-top: 150px;
+    font-size: 45px;
+    font-weight: 800;
+}
 
-    .deliver-packages-text {
-        font-size: 20px;
-    }
+.deliver-packages-text {
+    font-size: 20px;
+}
 .download-btn {
     width: 180px;
     height: 60px;
