@@ -53,13 +53,21 @@
             </div>
             <v-list nav dense class="px-0">
                 <v-list-item-group active-class="deep-blue--text text--white-4">
-                    <v-list-item link to="/howitworks" class=" py-0">
+                    <v-list-item link to="/howitworks" class="py-0">
                         <v-list-item-icon>
                             <v-icon color="#042C5B">
                                 mdi-arrow-right-thin
                             </v-icon>
                         </v-list-item-icon>
                         <v-list-item-title>How It Works</v-list-item-title>
+                    </v-list-item>
+                    <v-list-item link to="/contactus">
+                        <v-list-item-icon>
+                            <v-icon color="#042C5B">
+                                mdi-arrow-right-thin
+                            </v-icon>
+                        </v-list-item-icon>
+                        <v-list-item-title>Contact Us</v-list-item-title>
                     </v-list-item>
                     <v-list-item link to="/about">
                         <v-list-item-icon>
@@ -68,14 +76,6 @@
                             </v-icon>
                         </v-list-item-icon>
                         <v-list-item-title>About</v-list-item-title>
-                    </v-list-item>
-                    <v-list-item link to="/contactus">
-                        <v-list-item-icon>
-                            <v-icon color="#042C5B">
-                                mdi-arrow-right-thin
-                            </v-icon>
-                        </v-list-item-icon>
-                        <v-list-item-title>Contac Us</v-list-item-title>
                     </v-list-item>
                     <v-list-item link to="/finance">
                         <v-list-item-icon>
