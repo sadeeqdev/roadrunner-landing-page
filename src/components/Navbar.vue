@@ -1,7 +1,7 @@
 <template>
     <div>
-        <v-app-bar height="90px" style="background-color:transparent"
-            :class="{ 'setScrollColor': scrolled, 'white': scrolled }" elevate-on-scroll fixed class="nav-appbar">
+        <v-app-bar class="navbar" height="90px" style="background-color:transparent"
+            :class="{ 'setScrollColor': scrolled, 'white': scrolled }" elevate-on-scroll fixed>
             <div class="navbar-body d-flex flex-row">
                 <img @click="$router.push('/')" class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
                 <v-spacer></v-spacer>
@@ -30,7 +30,7 @@
                     <v-btn x-large text link to="/finance">
                         Finance
                     </v-btn>
-                    <v-btn @click="$router.push('/faqs')" x-large text link to="/faqs">
+                    <v-btn x-large text link to="/faqs">
                         FAQs
                     </v-btn>
                     <v-btn color="#042C5B" link to="/signup"
@@ -51,7 +51,7 @@
                     src="../assets/img/Roadrunner-Logo.svg">
             </div>
             <v-list nav dense class="px-0">
-                <v-list-item-group>
+                <v-list-item-group link>
                     <v-list-item link to="/howitworks" class="py-0">
                         <v-list-item-icon>
                             <v-icon color="#042C5B">
@@ -197,16 +197,19 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
-    .navbar-body {
+.navbar-body {
         width: 100%;
         margin: auto;
     }
 
     .navbar-image {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+            height: 50px;
         padding-top: 0px;
         margin-top: 0;
     }
+.v-app-bar {
+    height: 75px !important;
+}
 }
 </style>
