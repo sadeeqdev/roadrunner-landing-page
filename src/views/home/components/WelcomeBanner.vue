@@ -19,7 +19,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col cols="12" lg="7" md="7" xs="12" data-aos="zoom-in-left">
+        <v-col cols="12" lg="7" md="7" xs="12" data-aos="zoom-in">
             <div class="banner-image">
                 <img width="100%" height="auto" src="../../../assets/img/group-14.png" />
             </div>

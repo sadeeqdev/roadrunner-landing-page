@@ -27,7 +27,7 @@
             </v-card>
         </v-col>
         <v-spacer></v-spacer>
-        <v-col md="6" sm="12" xs="12" class="d-flex flex-row align-center justify-center" data-aos="fade-left">
+        <v-col md="6" sm="12" xs="12" class="d-flex flex-row align-center justify-center" data-aos="fade-up">
             <p class="find-and-connect">
                 Find & connect to the<br /> nearest rider for your<br /> deliveries with<br /> Roadrunner.
             </p>

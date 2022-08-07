@@ -1,6 +1,6 @@
 <template>
     <div style="background-color: #fff;">
-        <v-row style="width:95%; margin:auto; padding: 80px 0;" data-aos="fade-down">
+        <v-row style="width:95%; margin:auto; padding: 80px 0;" data-aos="fade-up">
             <v-col cols="12" class="d-flex flex-column justify-center">
                 <p class="finance-header" style="">
                     With <span class="link-text">Roadrunner Finance</span> You Can Drive Your Dream Car, Bike, Or Van

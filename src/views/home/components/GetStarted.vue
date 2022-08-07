@@ -9,7 +9,7 @@
                     width="250px" height="60px">Get Started
                 </v-btn>
             </v-col>
-            <v-col cols="12" md="6" xs="12" data-aos="fade-left">
+            <v-col cols="12" md="6" xs="12" data-aos="fade-down">
                 <div class="get-started-bg">
                     <img width="100%" height="auto" src="../../../assets/img/get-started-bg.png" />
                 </div>
