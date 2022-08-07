@@ -36,7 +36,7 @@ export default {
 <style scoped>
 .deliver-packages-header {
     color: #042C5B;
-    font-size: 4.5em;
+    font-size: 72px;
     font-weight: 700;
     padding-top: 250px;
 }
