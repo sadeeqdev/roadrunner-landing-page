@@ -23,6 +23,7 @@ const routes = [
     component: Home,
     meta: {
       layout: "content",
+      title:'Home'
     },
   },
   {
@@ -31,6 +32,7 @@ const routes = [
     component: Finance,
     meta: {
       layout: "content",
+      title:'Finance'
     },
   },
   {
@@ -39,6 +41,7 @@ const routes = [
     component: Company,
     meta: {
       layout: "content",
+      title:'About'
     },
   },
   {
@@ -47,6 +50,7 @@ const routes = [
     component: FAQs,
     meta: {
       layout: "content",
+      title:'FAQs'
     },
   },
   {
@@ -55,6 +59,7 @@ const routes = [
     component: HowItWorks,
     meta: {
       layout: "content",
+      title: 'How It Works'
     },
   },
   {
@@ -63,6 +68,7 @@ const routes = [
     component: ContactUs,
     meta: {
       layout: "content",
+      title:'Contact Us'
     },
   },
   {
@@ -71,6 +77,7 @@ const routes = [
     component: SignUp,
     meta: {
       layout: "content",
+      title:'Sign Up'
     },
   },
   {
@@ -79,6 +86,7 @@ const routes = [
     component: TermsAndConditions,
     meta: {
       layout: "content",
+      title: 'Terms and Conditions'
     },
   },
   {
@@ -87,6 +95,7 @@ const routes = [
     component: PrivacyPolicy,
     meta: {
       layout: "content",
+      title:'Privacy Policy'
     },
   },
 ];
@@ -98,6 +107,15 @@ const router = new VueRouter({
   scrollBehavior() {
     return { x: 0, y: 0 };
   },
+});
+
+const DEFAULT_TITLE = 'RoadRunner';
+router.afterEach((to) => {
+    // Use next tick to handle router history correctly
+    // see: https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609
+    Vue.nextTick(() => {
+        document.title = 'RoadRunner - ' + to.meta.title || DEFAULT_TITLE;
+    });
 });
 
 export default router;

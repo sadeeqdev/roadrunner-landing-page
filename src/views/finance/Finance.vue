@@ -319,4 +319,10 @@ margin-top: 50px;
     margin: 100px auto;
 }
 }
+@media only screen and (max-width: 1300px) {
+    .notify-area {
+        width: 100%;
+        margin: 30px auto
+    }
+}
 </style>
