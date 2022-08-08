@@ -3,7 +3,8 @@
         <p class="register-header" data-aos="fade-up">
             Get Started With Road Runner
         </p>
-        <v-row style="width:90%; margin:20px auto; padding: 20px 0;" class="d-flex flex-row justify-space-between">
+        <v-row style="width:90%; margin:20px auto; padding: 20px 0;"
+            class="d-flex flex-row flex-grow-1 justify-space-between">
             <div data-aos="fade-up" data-aos-delay="100">
                 <div class="register-packages-box d-flex justify-center align-center">
                     <img width="50%" height="auto" src="../../../assets/img/Customer.png" />
@@ -88,7 +89,7 @@ export default {
     color: #F4842B;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1030px) {
     .register-header {
         font-size: 2.4em;
         width: 90%;

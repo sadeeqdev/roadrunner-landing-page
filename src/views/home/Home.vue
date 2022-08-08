@@ -56,4 +56,15 @@ export default {
         background-repeat: no-repeat;
     }
 }
+@media only screen and (max-width: 1000px) {
+    .welcome-banner {
+        width: 100vw;
+        height: auto;
+        padding-bottom: 100px;
+        background-image: url('../../assets/img/roadrunner-background.png');
+        background-size: 300vw 1900px;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
 </style>

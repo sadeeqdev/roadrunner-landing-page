@@ -39,17 +39,18 @@
             </v-btn>
             <v-spacer></v-spacer>
             <div class="d-flex flex-row">
-                <v-btn width="45px" height="45px" elevation="0"
-                    class="packages-box mr-2 d-flex justify-center align-center">
+                <v-btn link href="https://facebook.com/roadrunnerafrica" target="_blank" width="45px" height="45px"
+                    elevation="0" class="packages-box mr-2 d-flex justify-center align-center">
                     <img width="40%" height="50%" src="../assets/img/facebook-logo.svg" />
 
                 </v-btn>
-                <v-btn width="45px" height="45px" elevation="0"
-                    class="packages-box d-flex justify-center align-center mr-2">
+                <v-btn link href="https://twitter.com/road_runnerapp" target="_blank" width="45px" height="45px"
+                    elevation="0" class="packages-box d-flex justify-center align-center mr-2">
                     <img width="70%" height="50%" src="../assets/img/twitter-logo.svg" />
 
                 </v-btn>
-                <v-btn width="45px" height="45px" elevation="0" class="packages-box d-flex justify-center align-center">
+                <v-btn link href="https://instagram.com/roadrunner.app" target="_blank" width="45px" height="45px"
+                    elevation="0" class="packages-box d-flex justify-center align-center">
                     <img width="70%" height="50%" src="../assets/img/instagram-logo.svg" />
 
                 </v-btn>

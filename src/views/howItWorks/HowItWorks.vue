@@ -176,7 +176,7 @@ export default {
 }
 
 .timeline-img {
-    width: 80%;
+    width: 60%;
     margin: 0 50px;
     height: auto;
 }

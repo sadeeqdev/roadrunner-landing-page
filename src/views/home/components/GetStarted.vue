@@ -2,8 +2,11 @@
     <div style="background-color: #fff;">
         <v-row class="get-started-body d-flex d-column-reverse" data-aos="fade-up">
             <v-col cols="12" md="6" sx="12">
-                <p class="earn-monthly">
+                <p class="earn-monthly d-none d-md-flex">
                     Earn Over<br /> ₦50,000 Monthly<br /> As A Rider.
+                </p>
+                <p class="earn-monthly d-flex d-md-none">
+                    Earn Over ₦50,000 Monthly As A Rider.
                 </p>
                 <v-btn style="text-transform: capitalize; font-size: 20px; font-weight: 500;" color="secondary"
                     width="250px" height="60px">Get Started

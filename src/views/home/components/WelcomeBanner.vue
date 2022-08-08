@@ -92,7 +92,7 @@ export default {
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 .deliver-packages-header {
     margin-top: -50px;
         padding-top: 0px;

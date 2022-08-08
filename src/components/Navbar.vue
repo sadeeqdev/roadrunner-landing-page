@@ -5,7 +5,7 @@
             <div class="navbar-body d-flex flex-row">
                 <img @click="$router.push('/')" class="navbar-image" src="../assets/img/Roadrunner-Logo.svg">
                 <v-spacer></v-spacer>
-                <v-btn @click="drawer = true" class="d-flex d-sm-none" icon>
+                <v-btn @click="drawer = true" class="d-flex flex-column d-md-none align-center" icon>
                     <v-icon>mdi-menu</v-icon>
                 </v-btn>
                 <div class="navbar-buttons mt-4 d-none d-md-flex">
@@ -196,15 +196,15 @@ export default {
     height: 100px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 .navbar-body {
         width: 100%;
         margin: auto;
     }
 
     .navbar-image {
-        width: 50px;
-            height: 50px;
+        width: 60px;
+            height: 60px;
         padding-top: 0px;
         margin-top: 0;
     }

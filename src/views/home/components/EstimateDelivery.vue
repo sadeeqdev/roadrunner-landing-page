@@ -19,7 +19,7 @@
                     <v-icon color="#F4842B">mdi-plus</v-icon>
                     Add Drop-off Location
                 </p>
-                <v-checkbox>Optimize ride</v-checkbox>
+                <v-checkbox label="Optimize ride"></v-checkbox>
 
                 <v-btn style="text-transform: capitalize; font-size: 24px; font-weight: 500;" color="secondary"
                     width="100%" height="60px">Estimate
@@ -66,7 +66,7 @@ export default {
          font-weight: 700;
      }
  }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 1000px) {
 .estimate-delivery-box {
     width: 100%;
     margin: 0;
