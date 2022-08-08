@@ -1,10 +1,10 @@
 <template>
     <div class="signup-body" data-aos="fade-left">
         <v-row>
-            <v-col cols="12" md="6" xs="12">
+            <v-col cols="12" md="6" xs="12" class="form-side">
                 <div class="signup-content">
                     <v-card flat class="signup-form">
-                        <v-btn large icon class="mb-8" @click="$router.go(-1)">
+                        <v-btn large icon class="mb-2" @click="$router.go(-1)">
                             <v-icon color="black">mdi-arrow-left</v-icon>
                         </v-btn>
                         <div class="signup-form-header">
@@ -55,10 +55,12 @@ export default {
 
 <style scoped>
 .signup-body {
+    background-color: #FEF3EC;
+    }
+    
+    .form-side {
     background-color: #fff;
-    border-bottom: 1px solid #cccccc;
 }
-
 .signup-content {
     width: 100%;
     margin-left: 10%;
@@ -76,7 +78,7 @@ export default {
 }
 
 .signup-form {
-    margin: 115px 0;
+    margin: 110px 0;
     width: 70%;
 }
 
