@@ -103,19 +103,20 @@ export default {
     color: #042C5B;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .signup-image-content {
         width: 90%;
         margin: auto
     }
 
     .signup-content {
-        margin-left: 5%;
+        width: 90%;
+            margin: auto;
     }
 
     .signup-form {
         margin: 115px 0;
-        width: 90%;
+        width: 100%;
     }
 }
 </style>
