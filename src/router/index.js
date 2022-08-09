@@ -9,6 +9,7 @@ import ContactUs from "../views/contactUs/ContactUs.vue";
 import SignUp from "../views/signUp/SignUp.vue";
 import TermsAndConditions from "../views/termsAndConditions/TermsAndConditions.vue";
 import PrivacyPolicy from "../views/privacyPolicy/PrivacyPolicy.vue";
+import PageNotFound from "../views/PageNotFound/PageNotFound.vue"
 
 Vue.use(VueRouter);
 
@@ -98,6 +99,14 @@ const routes = [
       title:'Privacy Policy'
     },
   },
+  { 
+    path: "*", 
+    component: PageNotFound,
+    meta: {
+      layout: "content",
+      title:'Page Not Found'
+    },
+}
 ];
 
 const router = new VueRouter({
@@ -111,8 +120,6 @@ const router = new VueRouter({
 
 const DEFAULT_TITLE = 'RoadRunner';
 router.afterEach((to) => {
-    // Use next tick to handle router history correctly
-    // see: https://github.com/vuejs/vue-router/issues/914#issuecomment-384477609
     Vue.nextTick(() => {
         document.title = 'RoadRunner - ' + to.meta.title || DEFAULT_TITLE;
     });

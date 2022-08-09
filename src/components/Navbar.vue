@@ -9,13 +9,12 @@
                     <v-icon>mdi-menu</v-icon>
                 </v-btn>
                 <div class="navbar-buttons mt-4 d-none d-md-flex">
-                    <v-btn @click="setActiveBtnFalse()" x-large text link to="/howitworks">
+                    <v-btn x-large text link to="/howitworks">
                         How it works
                     </v-btn>
                     <v-menu rounded offset-y>
                         <template v-slot:activator="{ attrs, on }">
-                            <v-btn @click="setActiveBtnTrue()" :class="{'v-btn--active': activeBtn}" link v-bind="attrs"
-                                v-on="on" x-large text>
+                            <v-btn :class="{'v-btn--active': activeBtn}" link v-bind="attrs" v-on="on" x-large text>
                                 Company<v-icon>mdi-chevron-down</v-icon>
                             </v-btn>
                         </template>
@@ -28,19 +27,19 @@
                             </v-list-item>
                         </v-list>
                     </v-menu>
-                    <v-btn @click="setActiveBtnFalse()" x-large text link to="/finance">
+                    <v-btn x-large text link to="/finance">
                         Finance
                     </v-btn>
-                    <v-btn @click="setActiveBtnFalse()" x-large text link to="/faqs">
+                    <v-btn x-large text link to="/faqs">
                         FAQs
                     </v-btn>
-                    <v-btn @click="setActiveBtnFalse()" color="#042C5B" link to="/signup"
+                    <v-btn color="#042C5B" link to="/signup"
                         style="margin-right:20px; border: 2px solid #042C5B; font-weight: 500; width:160px;" x-large
                         outlined>
                         Log In
                     </v-btn>
 
-                    <v-btn @click="setActiveBtnFalse()" class="signup-btn" color="#042C5B" link to="/signup"
+                    <v-btn class="signup-btn" color="#042C5B" link to="/signup"
                         style="color:white; font-weight: 500; width:160px" x-large>
                         Sign Up
                     </v-btn>
