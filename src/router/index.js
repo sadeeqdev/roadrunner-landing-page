@@ -1,15 +1,15 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/home/Home.vue";
-import Company from "../views/company/Company.vue";
-import Finance from "../views/finance/Finance.vue";
-import FAQs from "../views/faqs/FAQs.vue";
-import HowItWorks from "../views/howItWorks/HowItWorks.vue";
-import ContactUs from "../views/contactUs/ContactUs.vue";
-import SignUp from "../views/signUp/SignUp.vue";
-import TermsAndConditions from "../views/termsAndConditions/TermsAndConditions.vue";
-import PrivacyPolicy from "../views/privacyPolicy/PrivacyPolicy.vue";
-import PageNotFound from "../views/PageNotFound/PageNotFound.vue"
+// import Company from "../views/company/Company.vue";
+// import Finance from "../views/finance/Finance.vue";
+// import FAQs from "../views/faqs/FAQs.vue";
+// import HowItWorks from "../views/howItWorks/HowItWorks.vue";
+// import ContactUs from "../views/contactUs/ContactUs.vue";
+// import SignUp from "../views/signUp/SignUp.vue";
+// import TermsAndConditions from "../views/termsAndConditions/TermsAndConditions.vue";
+// import PrivacyPolicy from "../views/privacyPolicy/PrivacyPolicy.vue";
+// import PageNotFound from "../views/PageNotFound/PageNotFound.vue"
 
 Vue.use(VueRouter);
 
@@ -30,7 +30,7 @@ const routes = [
   {
     path: "/finance",
     name: "finance",
-    component: Finance,
+    component: () => import('@/views/finance/Finance.vue'),
     meta: {
       layout: "content",
       title:'Finance'
@@ -39,7 +39,7 @@ const routes = [
   {
     path: "/about",
     name: "company",
-    component: Company,
+    component: () => import('@/views/company/Company.vue'),
     meta: {
       layout: "content",
       title:'About'
@@ -48,7 +48,7 @@ const routes = [
   {
     path: "/faqs",
     name: "faqs",
-    component: FAQs,
+    component: () => import('@/views/faqs/FAQs.vue'),
     meta: {
       layout: "content",
       title:'FAQs'
@@ -57,7 +57,7 @@ const routes = [
   {
     path: "/howitworks",
     name: "howitworks",
-    component: HowItWorks,
+    component: () => import('@/views/howItWorks/HowItWorks.vue'),
     meta: {
       layout: "content",
       title: 'How It Works'
@@ -66,7 +66,7 @@ const routes = [
   {
     path: "/contactus",
     name: "contactus",
-    component: ContactUs,
+    component: () => import('@/views/contactUs/ContactUs.vue'),
     meta: {
       layout: "content",
       title:'Contact Us'
@@ -75,7 +75,7 @@ const routes = [
   {
     path: "/signup",
     name: "signup",
-    component: SignUp,
+    component: () => import('@/views/signUp/SignUp.vue'),
     meta: {
       layout: "content",
       title:'Sign Up'
@@ -84,7 +84,7 @@ const routes = [
   {
     path: "/termsandconditions",
     name: "termsandconditions",
-    component: TermsAndConditions,
+    component: () => import('@/views/termsAndConditions/TermsAndConditions.vue'),
     meta: {
       layout: "content",
       title: 'Terms and Conditions'
@@ -93,7 +93,7 @@ const routes = [
   {
     path: "/privacypolicy",
     name: "privacypolicy",
-    component: PrivacyPolicy,
+    component: () => import('@/views/privacyPolicy/PrivacyPolicy.vue'),
     meta: {
       layout: "content",
       title:'Privacy Policy'
@@ -101,7 +101,7 @@ const routes = [
   },
   { 
     path: "*", 
-    component: PageNotFound,
+    component: () => import('@/views/PageNotFound/PageNotFound.vue'),
     meta: {
       layout: "content",
       title:'Page Not Found'
