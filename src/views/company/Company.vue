@@ -156,7 +156,7 @@ export default {
     color: #F4842B;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 .message-bar-img {
         width: 100%;
         height: auto

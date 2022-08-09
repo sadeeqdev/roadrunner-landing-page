@@ -277,7 +277,14 @@ margin-top:15px
 .benefits-box-bar{
 margin-top: 50px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
+    .notify-area {
+        width: 100%;
+        margin: 30px auto
+    }
+}
+
+@media only screen and (max-width: 1000px) {
     .coming-soon-header {
         font-weight: 700;
         font-size: 52px;
@@ -319,10 +326,5 @@ margin-top: 50px;
     margin: 100px auto;
 }
 }
-@media only screen and (max-width: 1300px) {
-    .notify-area {
-        width: 100%;
-        margin: 30px auto
-    }
-}
+
 </style>

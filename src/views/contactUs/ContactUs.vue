@@ -145,7 +145,7 @@ export default {
     margin: auto
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .contact-search-bar {
         width: 100%;
     }
