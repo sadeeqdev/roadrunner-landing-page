@@ -101,6 +101,7 @@ export default {
     font-size: 32px;
     text-align: center;
     color: #042C5B;
+    margin: 150px 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -115,8 +116,15 @@ export default {
     }
 
     .signup-form {
-        margin: 115px 0;
+        margin: 215px 0;
         width: 100%;
     }
+.signup-image-header {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #042C5B;
+    margin: 215px 0;
+}
 }
 </style>
