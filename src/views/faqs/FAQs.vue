@@ -21,9 +21,7 @@
                             {{ item.header }}
                         </v-expansion-panel-header>
                         <v-expansion-panel-content class="faq-panel-content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
+                            <div v-html="item.content"></div>
                         </v-expansion-panel-content>
                     </v-expansion-panel>
                 </v-expansion-panels>
@@ -34,20 +32,13 @@
 </template>
 
 <script>
+
+import { panelData } from './panelData'; 
+
 export default {
     data: () => ({
         reverse: true,
-        panelData: [
-            { "header": "How can I create a new account?", "content": "" },
-            { "header": "How can I request for a delivery?", "content": "" },
-            { "header": "Can you deliver more than one package or multiple deliveries?", "content": "" },
-            { "header": "Can I track my Rider?", "content": "" },
-            { "header": "Can I manage my fleet of vehicles?", "content": "" },
-            { "header": "How do I withdraw my money?", "content": "" },
-            { "header": "What's the percentage commission for Roadrunner?", "content": "" },
-            { "header": "Is my information protected?", "content": "" },
-            { "header": "Are my card details safe on the app?", "content": "" }
-        ]
+        panelData: panelData
     }),
 }
 </script>

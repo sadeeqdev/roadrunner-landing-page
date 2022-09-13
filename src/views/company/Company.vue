@@ -7,7 +7,19 @@
                 </p>
             </div>
             <v-row class="mission-statement d-flex flex-row justify-space-between">
-                <v-col cols="12" md="7" xs="12" class="d-flex flex-row align-center">
+                <v-col cols="12" md="7" xs="12" class="align-center">
+                    <div>
+                        <p class="mission-header">
+                            About Us
+                        </p>
+                        <p class="mission-text">
+                            Road Runner is a global logistics and mobility fin-tech platform that handles all of your logistics and revenue-based vehicle financing.
+                            The company was birthed in 2022 to help bridge the gap between you and having your parcels delivered in no time.
+                            We're a team of dedicated, efficient and reliable team players, and we help deliver your package to your desired destination.
+                            Your convenience is our priority.
+                            Book a delivery today.
+                        </p>
+                    </div>
                     <div>
                         <p class="mission-header">
                             Our Mission Statement
