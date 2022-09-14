@@ -9,31 +9,40 @@
                     placeholder=" Search for a question">
                 </v-text-field>
             </div>
-            <div class="contactus-list">
-                <div class="list-header">
-                    Support
+            <div class="contactus-list d-flex">
+                <div>
+                    <div class="list-header">
+                        Support
+                    </div>
+                    <div class="list-text">
+                        Support@roadrunner.com
+                    </div>
+                    <div class="list-text">
+                        09010020018
+                    </div>
+                    <div class="list-text">
+                        09031126416
+                    </div>
+                    <div class="list-header">
+                        Location
+                    </div>
+                    <div class="list-text">
+                        1st Avenue,Gwarimpa Abuja
+                    </div>
+                    <div class="list-header">
+                        Legal
+                    </div>
+                    <div link to="/termsandconditions" class="list-text" style="text-decoration-line:underline">
+                        Terms & Conditions
+                    </div>
                 </div>
-                <div class="list-text">
-                    Support@roadrunner.com
+                <div class="d-flex justify-center" style="display: flex; justify-content:center; width:100%">
+                    <video class="contact-bar-bar-vid rounded d-flex justify-center"  width="auto" height="400px" controls>
+                        <source src="../../assets/img/road-runner-mobile-animation.mp4" type="video/mp4">
+                        Your browser does not support the video
+                    </video>
                 </div>
-                <div class="list-text">
-                    09010020018
-                </div>
-                <div class="list-text">
-                    09031126416
-                </div>
-                <div class="list-header">
-                    Location
-                </div>
-                <div class="list-text">
-                    1st Avenue,Gwarimpa Abuja
-                </div>
-                <div class="list-header">
-                    Legal
-                </div>
-                <div link to="/termsandconditions" class="list-text" style="text-decoration-line:underline">
-                    Terms & Conditions
-                </div>
+                
             </div>
         </div>
         <div class="feedback-bar" data-aos="fade-up">
@@ -154,6 +163,13 @@ export default {
         padding: 40px 20px;
         width: 100%;
         float: right;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+.contact-bar-vid {
+        width: 100%;
+        height: auto
     }
 }
 </style>
